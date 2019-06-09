@@ -6,7 +6,7 @@ To mitigate these risks, it is necessary to conduct Smart Contract Security Audi
 
 Chainsulting provides an audit with the German technology and security standards, which are the highest in the world. An audit by Chainsulting includes the following:
 
-✔ Certificate of Compliance
-✔ Full Report & Recommendations 
+✔ Certificate of Compliance <br>
+✔ Full Report & Recommendations <br>
 ✔ Automated Vulnerability Test (Mythril, Slither, Oyente)
 ✔ Manual Security Testing (SWC-Registry, Overflow)
