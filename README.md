@@ -8,5 +8,5 @@ Chainsulting provides an audit with the German technology and security standards
 
 ✔ Certificate of Compliance <br>
 ✔ Full Report & Recommendations <br>
-✔ Automated Vulnerability Test (Mythril, Slither, Oyente)
-✔ Manual Security Testing (SWC-Registry, Overflow)
+✔ Automated Vulnerability Test (Mythril, Slither, Oyente)<br>
+✔ Manual Security Testing (SWC-Registry, Overflow)<br>
