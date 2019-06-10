@@ -14,7 +14,7 @@ Chainsulting provides an audit with the German technology and security standards
 
 Get Your Smart Contract Security Audit Today!
 
-Contact:
-hello@chainsulting.de
-http://t.me/chainsulting
-https://chainsulting.de
+Contact:<br>
+hello@chainsulting.de<br>
+http://t.me/chainsulting<br>
+https://chainsulting.de<br>
