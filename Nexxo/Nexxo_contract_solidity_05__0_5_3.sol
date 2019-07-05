@@ -1,3 +1,7 @@
+/**
+ *Submitted for verification at Etherscan.io on 2019-07-05
+*/
+
 pragma solidity 0.5.3;
 
 /**
@@ -953,11 +957,13 @@ contract NexxoToken is Ownable, ERC20, Pausable, ERC20Burnable {
     // ------------------------------------------------------------------------
     constructor() public {
         symbol = "NEXXO";
-        name = "NEXXO";
+        name = "Nexxo Tokens";
+
         decimals = 18;
-        _totalSupply = 100000000000000000000000000;
+        _totalSupply = 100000000000000000000000000000;
+
         balances[msg.sender] = _totalSupply;
-        unitsOneEthCanBuy = 10;                                      // Set the price of your token for the ICO (CHANGE THIS)
+        unitsOneEthCanBuy = 287780;                                  // Set the price of your token for the ICO (CHANGE THIS)
         fundsWallet = msg.sender;                                    // The owner of the contract gets ETH
         emit Transfer(address(0), msg.sender, _totalSupply);
     }
