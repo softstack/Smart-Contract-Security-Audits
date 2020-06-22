@@ -1,0 +1,38 @@
+language: python
+
+os: linux
+dist: xenial
+
+jobs:
+  include:
+    - name: "Check Formatting"
+      python: 3.6
+      script: tox -e lint
+    - name: "Check Documentation"
+      python: 3.6
+      script: tox -e doctest
+
+python:
+- 3.6
+- 3.7
+- 3.8
+- pypy3
+
+install:
+- pip install -U tox-travis
+
+after_success:
+- coveralls
+
+script: tox
+
+deploy:
+  provider: pypi
+  distributions: sdist bdist_wheel
+  username: dmuhs
+  password:
+    secure: ryz3ZzxVRcssVahjaMxrv3S2Z4erg6+uZRAhHTJ0wcl0f2G0GtwL+Jkcci7vfoK3HqvBNIx8xahBeQitk7D1m0gHiEMlozEKRzlcWi3p9pELdThShC3zREfKaS8Z9Zi8H9DKGBYFrxECT7nuMkHtZoY7dt6hjeUQjSeHxwOwYKYDD20J0fn48cdv6CTAiIp9J8OJf5h3e0ANdud4eiJwtc7r48SFVASufHfNLFLjwMtl5Sy6hpW+54FKgpFlzXevmXpb3rFSNb5n0/z3gAG9rwPs5SBdlWsSkoYOTykXGG95+wU+4yc0Dyqyx6kF2kM2/qUnAPXouusuTdnVEuv1cabjtPNAbNKQQq+3TGxpJeg35TDyHE6QzVludIvq3jNh+7JfAmhCHCk07SdTuc0+T0Vwo4PHA+d4aGgqRtG6aKA5pFO/W/GVybuhPlDVEnD2DNfj1wj3J1tclrXbK02f4i1XXeYvJElFo+coMeAc9S/A47hQaVErBe5FwrqQSQfAIR1GKZ7Z7pRb1wgFMtfxhFUOGA7B7l6u372hMFBqcBvYw5Mk6kZIkahsUxZslVkmLWC/LREv5GW3GQOvehaFYVARtUgfDDmmlMdC3BPkvYThCmdz0q77OfMJFlR8/E2436h13blCsN0SUwM094KwwDDzOOQjGlLMJwRSexH+u3I=
+  on:
+    tags: true
+    repo: dmuhs/mythx-cli
+    python: 3.7

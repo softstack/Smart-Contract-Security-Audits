@@ -1,0 +1,169 @@
+{% extends "layout.html" %}
+
+{% block style %}
+    {{ super() }}
+    html {
+        font-family: "Courier New", monospace;
+        letter-spacing: 0.25rem;
+    }
+
+    {# COLOURS #}
+
+    body {
+        color: rgba(40, 40, 40);
+    }
+
+    .main-head {
+        color: rgba(255,137,206,1);
+    }
+
+    .main-footer {
+        color: rgba(255,137,206,1);
+    }
+
+    nav {
+        color: rgba(255,137,206,1);
+    }
+
+        article > h1, small > a {
+        color: rgba(255,137,206,1);
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .status > table > tbody tr > th {
+        background-color: rgba(194,194,231,0.8);
+    }
+
+    .report > table > tbody tr > th {
+        background-color: rgba(194,194,231,0.8);
+    }
+
+    .report > table > tbody tr > td {
+        background-color: rgba(194,194,231,0.6);
+    }
+
+    .sev-low {
+        background-color: rgba(161,219,242,0.7);
+    }
+
+    .sev-medium {
+        background-color: rgba(227,167,221,0.7);
+    }
+
+    .sev-high {
+        background-color: rgba(255,137,206,0.7);
+    }
+
+    .sev-unknown {
+        background-color: rgba(124,172,191,0.7);
+    }
+
+    .source-details {
+        background-color: rgba(194,194,231,0.8);
+    }
+
+    .testcase-inner > table > tbody > tr:nth-child(odd){
+        background-color: rgba(227,167,221,0.7);
+    }
+
+    #landscape {
+        position: fixed;
+        height: 50vh;
+        width: 100vw;
+        top: 50vh;
+        overflow: hidden;
+        z-index: -999;
+        background-color: #191923;
+        background-size: 100% auto;
+        box-shadow: 0 -0.5rem 5rem 2rem orange;
+        perspective: 100px;
+        perspective-origin: top;
+    }
+
+        #landscape::before {
+        position: absolute;
+        content: '';
+        width: 300vw;
+        height: inherit;
+        background-color: transparent;
+        background-size: 90px 24px;
+        background-image: linear-gradient(
+            90deg,
+            transparent 30%,
+            #f0f 36%,
+            #f0f 38%,
+            transparent 40%
+        ), linear-gradient(
+            0deg,
+            transparent 32%,
+            #f0f 36%,
+            #f0f 38%,
+            transparent 39%
+        );
+        z-index: -998;
+        -webkit-transform: rotateX(30deg) translate(-25%, -25%);
+        animation: grid-scroll 1.5s linear infinite;
+    }
+
+    @keyframes glimmer {
+        0% {
+            background-position: left;
+        }
+        30% {
+            background-position: right;
+        }
+        100% {
+            background-position: right;
+        }
+    }
+
+    @keyframes grid-scroll {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 0px 24px;
+        }
+    }
+
+    @keyframes screen-flicker {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 0px -12px;
+        }
+    }
+
+    #overlay {
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        background: -webkit-repeating-linear-gradient(
+            top,
+            transparent 0px,
+            transparent 2px,
+            rgba(0, 0, 0, .3) 5px,
+            rgba(0, 0, 0, .2) 5px
+    );
+
+    z-index: -900;
+    }
+
+    #background {
+        position: fixed;
+        height: 50vh;
+        width: 100vw;
+        top: 0;
+        background-color: #AD8CFF;
+        z-index: -999;
+    }
+{% endblock %}
+
+{% block extra_html %}
+<div id="background"></div>
+<div id="overlay"></div>
+<div id="landscape"></div>
+{% endblock %}

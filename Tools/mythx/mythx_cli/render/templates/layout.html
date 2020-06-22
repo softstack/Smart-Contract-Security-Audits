@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head scoped %}
+        <style>
+            {% block style scoped %}
+                body {
+                    margin: 0;
+                }
+
+                .main-head {
+                    font-size: 2.5rem;
+                    text-align: center;
+                    font-weight: bold;
+                }
+
+                h1 {
+                    font-size: 1.5rem;
+                    margin-top: 5rem;
+                }
+
+                h2 {
+                    font-size: 2rem;
+                }
+
+                table {
+                    border-style: none;
+                    border-spacing: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    float: none;
+                }
+
+                .report > table {
+                    width: 75vw;
+                    margin-top: 1.5rem;
+                }
+
+                .report > table > tbody > tr > th {
+                    text-align: left;
+                    text-transform: uppercase;
+                    padding: 0.5rem;
+                }
+
+                .report > table > tbody > tr > td {
+                    text-align: left;
+                    padding: 0.5rem;
+                }
+
+                .status > table {
+                    width: 60vw;
+                    text-align: center;
+                    table-layout: fixed;
+                }
+
+                .status > table > tbody > tr > th {
+                    text-transform: uppercase;
+                    padding: 0.5rem;
+                }
+
+
+                .status > table > tbody > tr > td {
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    padding: 1rem;
+                }
+
+                .main-nav {
+                    grid-area: nav;
+                    grid-column: 1;
+                    grid-row: 1 / span 2;
+                    word-break: break-all;
+                    max-width: 40vw;
+                }
+
+                .main-nav > ul {
+                    list-style: none;
+                }
+
+                .main-nav > ul > li {
+                    padding: 0.5rem;
+                }
+
+                .main-nav > ul > li > a {
+                    color:inherit;
+                    text-decoration: none;
+                }
+
+                .main-nav > h2 {
+                    text-align: center;
+                    font-weight: bold;
+                }
+
+                .main-content {
+                    grid-area: content;
+                    grid-column: 2;
+                    grid-row: 1;
+                }
+
+                .main-footer {
+                    position: fixed;
+                    left: 0;
+                    bottom: 0;
+                }
+
+                #main {
+                    display: grid;
+                    grid-template-columns: 1fr 5fr;
+                    grid-template-rows: auto;
+                    grid-gap: 2rem;
+                    height: 90vh;
+                    width: 90vw;
+                    grid-template-areas: "nav" "content"
+                }
+
+                .code {
+                    margin-top: 2rem;
+                }
+
+                .source-details {
+                    position: relative;
+                    width: 100%;
+                    margin: 1rem auto;
+                    padding: 0 1rem;
+                    max-width: calc(100% - 2rem);
+                    border-radius: 6px;
+                    transition: background-color 0.15s;
+                }
+
+                .source-details > :last-child, .code-details > :last-child {
+                    padding-bottom: 1rem;
+                }
+
+                .source-summary:focus,.code-summary:focus, .testcase-summary:focus {
+                    outline: none;
+                }
+
+                .source-details::before {
+                    width: 100%;
+                    height: 100%;
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    border-radius: inherit;
+                    opacity: 0.15;
+                    box-shadow: 0 0.25em 0.5em #263238;
+                    pointer-events: none;
+                    transition: opacity 0.2s;
+                    z-index: -1;
+                }
+
+                .source-details[open]::before {
+                    opacity: 0.6;
+                }
+
+                .source-summary, .code-summary {
+                    padding: 1rem 2em 1rem 0;
+                    display: block;
+                    position: relative;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+
+                .source-summary {
+                    font-size: 1.33em;
+                }
+
+                .source-summary::before, .source-summary::after {
+                    width: 0.75em;
+                    height: 2px;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    content: '';
+                    background-color: currentColor;
+                    text-align: right;
+                    transform: translateY(-50%);
+                    transition: transform 0.2s ease-in-out;
+                }
+
+
+                .source-summary::after {
+                    transform: translateY(-50%) rotate(90deg);
+                }
+
+                [open] .source-summary::after {
+                    transform: translateY(-50%) rotate(180deg);
+                }
+
+                .source-summary::-webkit-details-marker, .code-summary::-webkit-details-marker {
+                    display: none;
+                }
+
+                pre {
+                    counter-reset: line;
+                    line-height: 1.2rem;
+                    padding-left: 1rem;
+                }
+
+                .code-details {
+                    /* margin: 0; */
+                }
+
+                .code-summary {
+                    padding: 0;
+                }
+
+                code {
+                    counter-increment: line;
+                }
+
+                code::before {
+                    content: counter(line);
+                    display: inline-block;
+                    width: 2rem;
+                    border-right: 1px solid #ddd;
+                    margin-right: 1.5em;
+                    color: #888;
+                    -webkit-user-select: none;
+                }
+
+                .source-filename {
+                    font-family: monospace;
+                    font-size: 1.5rem;
+                    border-radius: 6px;
+                    margin: auto;
+                }
+
+                .testcase-inner {
+                    padding-left: 2rem;
+                }
+
+                .testcase-inner > .testcase-inner {
+                    padding: 1rem;
+                }
+
+                .testcase-inner > table {
+                    width: 100%;
+                    table-layout: fixed;
+                    max-width: 60vw;
+                    border-spacing: 1rem;
+                    margin-left: 3rem;
+                    line-height: 1rem;
+                    text-align: left;
+                }
+
+                .testcase-inner > table > tbody > tr > td {
+                    word-wrap: break-word;
+                    padding-right: 0.5rem;
+                }
+
+                .testcase-inner > table > tbody > tr > th {
+                    width: 10rem;
+                    vertical-align: top;
+                }
+
+                .testcase-summary {
+                    /* padding-top: 0.5rem; */
+                }
+
+                small {
+                    font-size: small;
+                }
+            {% endblock %}
+        </style>
+        <title>{% block title scoped %}MythX Report for {{target}}{% endblock %}</title>
+    {% endblock %}
+</head>
+<body>
+{% block extra_html %}{% endblock %}
+<div id="main">
+    {# NAVIGATION START #}
+    <nav class="main-nav">
+        {% block navigation scoped %}
+        <h2>{% block navigation_header scoped %}Overview{% endblock %}</h2>
+        <ul>
+            {% for status, report, input in issues_list %}
+            <li><a href="#{{ report.uuid }}">{{ input.main_source }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endblock %}
+    </nav>
+    {# NAVIGATION END #}
+
+    <article class="main-content">
+
+        {# OVERALL REPORT HEADER START #}
+        {% block main_header scoped %}
+            <header class="main-head">
+                {% block main_header_name scoped %}MythX Report for {{ target }}{% endblock %}
+            </header>
+        {% endblock %}
+        {# OVERALL REPORT HEADER END #}
+
+        {% for status, report, input in issues_list %}
+
+            {# ISSUE REPORT HEADER START #}
+            {% block report_header scoped %}
+                <h1 id="{{ report.uuid }}">
+                    {% block report_header_name scoped %}
+                        Report for {{ input.main_source }} and Dependencies
+                    {% endblock %}
+                    {% block report_header_link scoped %}
+                        <small>
+                            <a href="https://dashboard.mythx.io/#/console/analyses/{{ report.uuid }}" target="_blank">
+                                {% block report_header_link_name scoped %}
+                                ({{ report.uuid }})
+                                {% endblock %}
+                            </a>
+                        </small>
+                    {% endblock %}
+                </h1>
+            {% endblock %}
+            {# ISSUE REPORT HEADER END #}
+
+            {% if report %}
+
+                {# STATUS SECTION START #}
+                    <section class="status">
+                        {% block section_status scoped %}
+                            <table>
+                                <tr>
+                                    <th>{% block section_status_high scoped %}High{% endblock %}</th>
+                                    <th>{% block section_status_medium scoped %}Medium{% endblock %}</th>
+                                    <th>{% block section_status_low scoped %}Low{% endblock %}</th>
+                                    <th>{% block section_status_unknown scoped %}Unknown{% endblock %}</th>
+                                </tr>
+                                <tr>
+                                    <td class="sev-high">{{ status.vulnerability_statistics.high }}</td>
+                                    <td class="sev-medium">{{ status.vulnerability_statistics.medium }}</td>
+                                    <td class="sev-low">{{ status.vulnerability_statistics.low }}</td>
+                                    <td class="sev-unknown">{{ status.vulnerability_statistics.none }}</td>
+                                </tr>
+                            </table>
+                        {% endblock %}
+                    </section>
+                {# STATUS SECTION END #}
+
+                {# REPORT SECTION START #}
+                    <section class="report">
+                        {% block section_report scoped %}
+                            <table>
+                                <tr>
+                                    <th>{% block section_report_id scoped %}ID{% endblock %}</th>
+                                    <th>{% block section_report_severity scoped %}Severity{% endblock %}</th>
+                                    <th>{% block section_report_name scoped %}Name{% endblock %}</th>
+                                    <th>{% block section_report_file scoped %}File{% endblock %}</th>
+                                    <th>{% block section_report_location scoped %}Location{% endblock %}</th>
+                                </tr>
+                                {% set line_dict = {} %}
+                                {% for issue in report %}
+                                    {% for location in issue.decoded_locations %}
+                                    {% set loc=issue.locations[loop.index0] %}
+                                    {% if loc.source_format == "text" %}
+                                        <tr>
+                                            <td>{{ issue.swc_id }}</td>
+                                            <td>{{ issue.severity|title }}</td>
+                                            <td>{{ issue.swc_title }}</td>
+                                            <td>
+                                                {{ loc.source_list[loc.source_map.components[0].file_id] }}
+                                            </td>
+                                            <td>L: {{ location.start_line }} C: {{ location.start_column }}</td>
+                                        </tr>
+                                    {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                            </table>
+                        {% endblock %}
+                    </section>
+                {# REPORT SECTION END #}
+
+                {# CODE SECTION START #}
+                    <section class="code">
+                        {% block section_code scoped %}
+                            {% set line_dict = {} %}
+                            {% for issue in report %}
+                                {% for location in issue.decoded_locations %}
+                                    {% set filename="undefined" %}
+                                    {% set loc=issue.locations[loop.index0] %}
+                                        {% if loc.source_format == "text" %}
+                                            {% set x=line_dict.__setitem__(location.start_line, (loc.source_list[loc.source_map.components[0].file_id], issue)) %}
+                                        {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                            <details class="source-details">
+                                <summary class="source-summary">{% block section_code_name scoped %}Source Code{% endblock %}</summary>
+                                {% for filename, data in input.sources.items() %}
+                                    <details class="source-details">
+                                    <summary class="source-filename">{{ filename }}</summary>
+                                    <pre>
+{% for line in data["source"].split("\n") %}
+{% if loop.index in line_dict and line_dict[loop.index][0] == filename %}
+<details class="code-details">
+<summary class="code-summary">
+<code class="sev-{{ line_dict[loop.index][1].severity|lower }}">{{ line }}</code>
+</summary>
+<p>{{ line_dict[loop.index][1].swc_id }} - {{ line_dict[loop.index][1].swc_title }}</p>
+{% if line_dict[loop.index][1].extra_data["testCases"] %}
+{% for case in line_dict[loop.index][1].extra_data["testCases"] %}
+<details>
+{% set case_idx=loop.index %}
+<summary class="testcase-summary">{% block section_case_name scoped %}Test Case {{ case_idx }}{% endblock %}</summary>
+{% for step in case["steps"] %}
+{% set step_idx=loop.index %}
+<details class="testcase-inner">
+<summary class="testcase-summary">{% block section_code_step_name scoped %}Step {{ step_idx }}{% endblock %}</summary>
+<table>
+{% for key, value in step.items() %}
+<tr>
+<th>{{ key }}</th>
+<td>{{ value }}</td>
+</tr>
+{% endfor %}
+</table>
+</details>
+{% endfor %}
+</details>
+{% endfor %}
+{% else %}
+<p>{% block section_code_empty_name scoped %}No test cases to display.{% endblock %}</p>
+{% endif %}
+</details>
+{% else %}
+<code>{{ line }}</code>
+{% endif %}
+{% endfor %}
+                                    </pre>
+                                    </details>
+                                {% endfor %}
+                            </details>
+                        {% endblock %}
+                    </section>
+                {# CODE SECTION END #}
+
+            {% else %}
+
+                <p>{% block no_issues_name scoped %}No issues were found.{% endblock %}</p>
+
+            {% endif %}
+        {% endfor %}
+    </article>
+    <footer class="main-footer">{% block footer scoped %}Generated by MythX CLI{% endblock %}
+    </footer>
+</div>
+</body>
+</html>

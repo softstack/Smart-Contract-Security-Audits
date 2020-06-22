@@ -1,0 +1,20 @@
+[
+    {
+        "linterName": "mythx",
+        "forRule": "SWC-110",
+        "ruleType": "LOW",
+        "remediationEffortMinutes": 0,
+        "atLineNr": 1,
+        "onInputFile": "/home/spoons/diligence/mythx-qa/land/contracts/estate/EstateStorage.sol",
+        "severity": "LOW",
+        "message": "It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking."
+    },
+    {
+        "linterName": "mythx",
+        "forRule": "",
+        "ruleType": "LOW",
+        "remediationEffortMinutes": 0,
+        "severity": "LOW",
+        "message": "Warning: Free mode only detects certain types of smart contract vulnerabilities. Your contract may still be unsafe. Upgrade to MythX Pro to unlock the ability to test for even more vulnerabilities, perform deeper security analysis, and more. https://mythx.io/plans"
+    }
+]

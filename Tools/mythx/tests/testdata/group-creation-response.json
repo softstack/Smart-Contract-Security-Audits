@@ -1,0 +1,25 @@
+{
+    "id": "test",
+    "name": "test",
+    "createdAt": "2019-10-30T00:52:12.000Z",
+    "createdBy": "test",
+    "completedAt": "2019-10-30T00:52:12.000Z",
+    "progress": 0,
+    "status": "opened",
+    "mainSourceFiles": [
+        "test"
+    ],
+    "numAnalyses": {
+        "total": 0,
+        "queued": 0,
+        "running": 0,
+        "failed": 0,
+        "finished": 0
+    },
+    "numVulnerabilities": {
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "none": 0
+    }
+}

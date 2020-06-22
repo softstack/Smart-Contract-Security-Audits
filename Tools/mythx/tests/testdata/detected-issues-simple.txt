@@ -1,0 +1,10 @@
+https://dashboard.mythx.io/#/console/analyses/ab9092f7-54d0-480f-9b63-1bb1508280e2
+Title: Assert Violation (Low)
+Description: It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking.
+
+/home/spoons/diligence/mythx-qa/land/contracts/estate/EstateStorage.sol:24
+	mapping(uint256 => uint256[]) public estateLandIds;
+
+https://dashboard.mythx.io/#/console/analyses/ab9092f7-54d0-480f-9b63-1bb1508280e2
+Title: - (Low)
+Description: Warning: Free mode only detects certain types of smart contract vulnerabilities. Your contract may still be unsafe. Upgrade to MythX Pro to unlock the ability to test for even more vulnerabilities, perform deeper security analysis, and more. https://mythx.io/plans

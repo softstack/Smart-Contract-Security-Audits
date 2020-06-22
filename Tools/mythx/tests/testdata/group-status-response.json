@@ -1,0 +1,23 @@
+{
+    "id": "5dd40ca50d861d001101e888",
+    "name": "test",
+    "createdAt": "2019-11-19T15:39:17.714Z",
+    "createdBy": "5cefb9a4f50eaf001757f57d",
+    "completedAt": null,
+    "progress": 100,
+    "mainSourceFiles": [],
+    "status": "sealed",
+    "numAnalyses": {
+        "total": 0,
+        "queued": 0,
+        "running": 0,
+        "failed": 0,
+        "finished": 0
+    },
+    "numVulnerabilities": {
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "none": 0
+    }
+}

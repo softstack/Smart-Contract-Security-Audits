@@ -1,0 +1,9 @@
+Warning: Free mode only detects certain types of smart contract vulnerabilities. Your contract may still be unsafe. Upgrade to MythX Pro to unlock the ability to test for even more vulnerabilities, perform deeper security analysis, and more. https://mythx.io/plans
+
+Report for /home/spoons/diligence/mythx-qa/land/contracts/estate/EstateStorage.sol
+https://dashboard.mythx.io/#/console/analyses/ab9092f7-54d0-480f-9b63-1bb1508280e2
+╒════════╤══════════════════╤════════════╤══════════════════════════════════════════╕
+│   Line │ SWC Title        │ Severity   │ Short Description                        │
+╞════════╪══════════════════╪════════════╪══════════════════════════════════════════╡
+│     24 │ Assert Violation │ Low        │ A reachable exception has been detected. │
+╘════════╧══════════════════╧════════════╧══════════════════════════════════════════╛

@@ -1,0 +1,221 @@
+[
+    {
+        "issues": [
+            {
+                "swcID": "SWC-110",
+                "swcTitle": "Assert Violation",
+                "description": {
+                    "head": "A reachable exception has been detected.",
+                    "tail": "It is possible to trigger an exception (opcode 0xfe). Exceptions can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. Note that explicit `assert()` should only be used to check invariants. Use `require()` for regular input checking."
+                },
+                "severity": "Low",
+                "decodedLocations": [
+                    [
+                        {
+                            "line": 1,
+                            "column": 10
+                        },
+                        {
+                            "line": 1,
+                            "column": 11
+                        },
+                        false
+                    ],
+                    [
+                        {
+                            "line": 1,
+                            "column": 10
+                        },
+                        {
+                            "line": 1,
+                            "column": 11
+                        },
+                        false
+                    ]
+                ],
+                "locations": [
+                    {
+                        "sourceMap": "454:1:1",
+                        "sourceType": "raw-bytecode",
+                        "sourceFormat": "evm-byzantium-bytecode",
+                        "sourceList": [
+                            "0xc4fb652765fbc8c62ef9e87524c33e75cec4800f5f926c9b92bb65a8f344516c",
+                            "0x450f10bb4c2c7c13bba9bee136d5dcffc96afdef00d12b3b9398f7c32a7571c6"
+                        ]
+                    },
+                    {
+                        "sourceMap": "812:50:0",
+                        "sourceType": "solidity-file",
+                        "sourceFormat": "text",
+                        "sourceList": [
+                            "/home/spoons/diligence/mythx-qa/land/contracts/estate/EstateStorage.sol"
+                        ]
+                    }
+                ],
+                "extra": {
+                    "discoveryTime": 5723484754,
+                    "testCases": [
+                        {
+                            "initialState": {
+                                "accounts": {
+                                    "0x901d12ebe1b195e5aa8748e62bd7734ae19b51f": {
+                                        "balance": "0x0",
+                                        "code": "6080604052600436106100775763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166307ecec3e811461007c5780630a354fce146100c45780633970bfd3146100ee5780637b103999146101095780639d40b850146101475780639f813b1b1461015f575b600080fd5b34801561008857600080fd5b506100b073ffffffffffffffffffffffffffffffffffffffff6004358116906024351661017a565b604080519115158252519081900360200190f35b3480156100d057600080fd5b506100dc60043561019a565b60408051918252519081900360200190f35b3480156100fa57600080fd5b506100dc6004356024356101ac565b34801561011557600080fd5b5061011e6101dc565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b34801561015357600080fd5b5061011e6004356101f8565b34801561016b57600080fd5b506100dc600435602435610220565b600660209081526000928352604080842090915290825290205460ff1681565b60026020526000908152604090205481565b6001602052816000526040600020818154811015156101c757fe5b90600052602060002001600091509150505481565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b60056020526000908152604090205473ffffffffffffffffffffffffffffffffffffffff1681565b6003602090815260009283526040808420909152908252902054815600a165627a7a72305820f64a07ca79d7ea541c6da153a5e58913679321b2cc8435fdddbd0735083dba550029",
+                                        "nonce": 0,
+                                        "storage": {}
+                                    },
+                                    "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe": {
+                                        "balance": "0x1",
+                                        "code": "",
+                                        "nonce": 0,
+                                        "storage": {}
+                                    },
+                                    "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef": {
+                                        "balance": "0x0",
+                                        "code": "",
+                                        "nonce": 0,
+                                        "storage": {}
+                                    }
+                                }
+                            },
+                            "steps": [
+                                {
+                                    "address": "",
+                                    "blockCoinbase": "0xcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+                                    "blockDifficulty": "0xa7d7343662e26",
+                                    "blockGasLimit": "0x7d0000",
+                                    "blockNumber": "0x66e393",
+                                    "blockTime": "0x5bfa4639",
+                                    "gasLimit": "0x7d000",
+                                    "gasPrice": "0x773594000",
+                                    "input": "0x608060405234801561001057600080fd5b50610269806100206000396000f3006080604052600436106100775763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166307ecec3e811461007c5780630a354fce146100c45780633970bfd3146100ee5780637b103999146101095780639d40b850146101475780639f813b1b1461015f575b600080fd5b34801561008857600080fd5b506100b073ffffffffffffffffffffffffffffffffffffffff6004358116906024351661017a565b604080519115158252519081900360200190f35b3480156100d057600080fd5b506100dc60043561019a565b60408051918252519081900360200190f35b3480156100fa57600080fd5b506100dc6004356024356101ac565b34801561011557600080fd5b5061011e6101dc565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b34801561015357600080fd5b5061011e6004356101f8565b34801561016b57600080fd5b506100dc600435602435610220565b600660209081526000928352604080842090915290825290205460ff1681565b60026020526000908152604090205481565b6001602052816000526040600020818154811015156101c757fe5b90600052602060002001600091509150505481565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b60056020526000908152604090205473ffffffffffffffffffffffffffffffffffffffff1681565b6003602090815260009283526040808420909152908252902054815600a165627a7a72305820f64a07ca79d7ea541c6da153a5e58913679321b2cc8435fdddbd0735083dba550029",
+                                    "name": "unknown",
+                                    "origin": "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe",
+                                    "value": "0x0"
+                                },
+                                {
+                                    "address": "0x901d12ebe1b195e5aa8748e62bd7734ae19b51f",
+                                    "blockCoinbase": "0xcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+                                    "blockDifficulty": "0xa7d7343662e26",
+                                    "blockGasLimit": "0x7d0000",
+                                    "blockNumber": "0x66e393",
+                                    "blockTime": "0x5bfa4639",
+                                    "gasLimit": "0x7d000",
+                                    "gasPrice": "0x773594000",
+                                    "input": "0x3970bfd3",
+                                    "name": "unknown",
+                                    "origin": "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe",
+                                    "value": "0x0"
+                                }
+                            ]
+                        },
+                        {
+                            "initialState": {
+                                "accounts": {
+                                    "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0": {
+                                        "nonce": 0,
+                                        "balance": "0x00000000000000000000000000000000000000ffffffffffffffffffffffffff",
+                                        "code": "",
+                                        "storage": {}
+                                    },
+                                    "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1": {
+                                        "nonce": 1,
+                                        "balance": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                                        "code": "",
+                                        "storage": {}
+                                    },
+                                    "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa2": {
+                                        "nonce": 1,
+                                        "balance": "0x00000000000000000000000000000000000000ffffffffffffffffffffffffff",
+                                        "code": "",
+                                        "storage": {}
+                                    },
+                                    "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa3": {
+                                        "nonce": 1,
+                                        "balance": "0x00000000000000000000000000000000000000ffffffffffffffffffffffffff",
+                                        "code": "0x00",
+                                        "storage": {}
+                                    },
+                                    "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa4": {
+                                        "nonce": 1,
+                                        "balance": "0x00000000000000000000000000000000000000ffffffffffffffffffffffffff",
+                                        "code": "0xfd",
+                                        "storage": {}
+                                    },
+                                    "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa5": {
+                                        "nonce": 1,
+                                        "balance": "0x00000000000000000000000000000000000000ffffffffffffffffffffffffff",
+                                        "code": "0x608060405260005600a165627a7a72305820466f8a1bdae15c60b8e998fe04836ef505803cfbd8edd29bd4679531357576530029",
+                                        "storage": {}
+                                    },
+                                    "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa6": {
+                                        "nonce": 1,
+                                        "balance": "0x00000000000000000000000000000000000000ffffffffffffffffffffffffff",
+                                        "code": "0x608060405273aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa63081146038578073ffffffffffffffffffffffffffffffffffffffff16ff5b5000fea165627a7a723058205e8b906b72ad42c69b05acf4542283b6080ae82562bc74baac467daac2fb0e0e0029",
+                                        "storage": {}
+                                    },
+                                    "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe": {
+                                        "nonce": 0,
+                                        "balance": "0x0000000000000000000000000000000000ffffffffffffffffffffffffffffff",
+                                        "code": "",
+                                        "storage": {}
+                                    }
+                                }
+                            },
+                            "steps": [
+                                {
+                                    "address": "",
+                                    "gasLimit": "0xffffff",
+                                    "gasPrice": "0x773594000",
+                                    "input": "0x608060405234801561001057600080fd5b50610269806100206000396000f3006080604052600436106100775763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166307ecec3e811461007c5780630a354fce146100c45780633970bfd3146100ee5780637b103999146101095780639d40b850146101475780639f813b1b1461015f575b600080fd5b34801561008857600080fd5b506100b073ffffffffffffffffffffffffffffffffffffffff6004358116906024351661017a565b604080519115158252519081900360200190f35b3480156100d057600080fd5b506100dc60043561019a565b60408051918252519081900360200190f35b3480156100fa57600080fd5b506100dc6004356024356101ac565b34801561011557600080fd5b5061011e6101dc565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b34801561015357600080fd5b5061011e6004356101f8565b34801561016b57600080fd5b506100dc600435602435610220565b600660209081526000928352604080842090915290825290205460ff1681565b60026020526000908152604090205481565b6001602052816000526040600020818154811015156101c757fe5b90600052602060002001600091509150505481565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b60056020526000908152604090205473ffffffffffffffffffffffffffffffffffffffff1681565b6003602090815260009283526040808420909152908252902054815600a165627a7a72305820f64a07ca79d7ea541c6da153a5e58913679321b2cc8435fdddbd0735083dba550029",
+                                    "origin": "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe",
+                                    "value": "0x0",
+                                    "blockCoinbase": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0",
+                                    "blockDifficulty": "0xa7d7343662e26",
+                                    "blockGasLimit": "0xffffff",
+                                    "blockNumber": "0x661a55",
+                                    "blockTime": "0x5be99aa8"
+                                },
+                                {
+                                    "address": "0x0901d12ebe1b195e5aa8748e62bd7734ae19b51f",
+                                    "gasLimit": "0x7d000",
+                                    "gasPrice": "0x773594000",
+                                    "input": "0x3970bfd30000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000000000",
+                                    "origin": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0",
+                                    "value": "0x0",
+                                    "blockCoinbase": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0",
+                                    "blockDifficulty": "0xa7d7343662e26",
+                                    "blockGasLimit": "0x7d0000",
+                                    "blockNumber": "0x68621c",
+                                    "blockTime": "0x5be99aa8"
+                                }
+                            ]
+                        }
+                    ],
+                    "toolName": "mythril"
+                }
+            },
+            {
+                "swcID": "",
+                "swcTitle": "",
+                "description": {
+                    "head": "Upgrade to MythX Pro to unlock the ability to test for even more vulnerabilities, perform deeper security analysis, and more. https://mythx.io/plans",
+                    "tail": "Warning: Free mode only detects certain types of smart contract vulnerabilities. Your contract may still be unsafe. Upgrade to MythX Pro to unlock the ability to test for even more vulnerabilities, perform deeper security analysis, and more. https://mythx.io/plans"
+                },
+                "severity": "Low",
+                "locations": [],
+                "extra": {}
+            }
+        ],
+        "sourceType": "solidity-file",
+        "sourceFormat": "text",
+        "sourceList": [
+            "/home/spoons/diligence/mythx-qa/land/contracts/estate/EstateStorage.sol"
+        ],
+        "meta": {
+            "selectedCompiler": "Unknown",
+            "coveredPaths": 14,
+            "coveredInstructions": 315
+        }
+    }
+]

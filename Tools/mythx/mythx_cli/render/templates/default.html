@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block style %}
+    {{ super() }}
+
+    html {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+
+    {# COLOURS #}
+
+    .report > table > tbody tr:nth-child(odd){
+        background-color: lightgrey;
+    }
+
+    .sev-low {
+        background-color: lightgreen;
+    }
+
+    .sev-medium {
+        background-color: gold;
+    }
+
+    .sev-high {
+        background-color: orangered;
+    }
+
+    .sev-unknown {
+        background-color: lightgrey;
+    }
+
+    .details-tab {
+    background-color: #eceff1;
+    }
+
+    .source-details[open] {
+    background-color: #fff;
+    }
+
+    .testcase-inner > table > tbody > tr:nth-child(odd){
+    background-color: #eceff1;
+    }
+{% endblock %}

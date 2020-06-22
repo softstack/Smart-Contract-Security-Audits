@@ -1,0 +1,5 @@
+@import 'theme.css';       /*for the Read the Docs theme */
+
+p {
+    text-align: justify;
+}
