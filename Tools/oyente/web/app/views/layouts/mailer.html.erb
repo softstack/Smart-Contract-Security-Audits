@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      .container { padding: 15px auto }
+
+      @media (min-width: 768px) {
+        .container {
+          width: 750px;
+        }
+      }
+      @media (min-width: 992px) {
+        .container {
+          width: 970px;
+        }
+      }
+      @media (min-width: 1200px) {
+        .container {
+          width: 1170px;
+        }
+      }
+
+      .warning-box {
+        background-color: white;
+        border: .2em dotted red;
+        line-height: 20px;
+        padding: 8px 15px;
+        border-radius: 5px;
+        margin-bottom: 1em
+      }
+      .safe-box {
+        background-color: white;
+        border: .2em dotted green;
+        line-height: 20px;
+        padding: 8px 15px;
+        border-radius: 5px;
+        margin-bottom: 1em
+      }
+      .col1_1 {
+        width: 25%;
+        min-width: 235px;
+        float: left;
+        align-self: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<h1 style="text-align: center">Oyente analysis result</h1>
+<div>
+  <% @sources.each do |source, contracts|%>
+    <div style='font-weight: bold'><%= source %></div>
+    <% contracts.each do |contract, result| %>
+      <div class="<%= border_color(result) %>">
+        <div style="text-align: center"><%= source %>:<%= contract %></div>
+        <div>
+          <div class="col1_1">EVM Code Coverage</div>
+          <div><%= result[:evm_code_coverage] %>%</div>
+        </div>
+        <% result[:vulnerabilities].each do |vul, warnings| %>
+          <div>
+            <div class="col1_1"><%= vulnerability_names[vul] %>:</div>
+            <% if warnings.empty? %>
+              <div style="color: green">False</div>
+            <% else %>
+              <div style="color: red">True</div>
+            <% end %>
+          </div>
+        <% end %>
+        <% if any_vulnerability?(result) %>
+          <br />
+          <div>Details</div>
+          <% result[:vulnerabilities].each do |vul, warnings| %>
+            <% warnings.each_with_index do |warning, i| %>
+              <% if warning.is_a?(Array) %>
+                <div>Flow <%= i + 1 %></div>
+                <% warning.each do |tod_warning| %>
+                  <div><pre><%= tod_warning %></pre></div>
+                <% end %>
+              <% else %>
+                <div><pre><%= warning %></pre></div>
+              <% end %>
+            <% end %>
+          <% end %>
+        <% end %>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+

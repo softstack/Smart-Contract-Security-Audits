@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.5"
+  - "3.6"
+install:
+  - pip install -U z3 web3 requests flake8 yapf pytest pylint
+script:
+    - flake8
+git:
+  submodules: false
