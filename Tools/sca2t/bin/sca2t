@@ -1,0 +1,46 @@
+#!/usr/bin/env node
+
+const { eventgen, dependencies, truffletogeth } = require('../lib/index')
+
+require('yargs')
+  .usage('$0 <cmd> [args]')
+  .command('eventgen <files..>', 'generate event\'s definitions and calls in existing solidity files.', (yargs) => {
+    yargs
+      .positional('files', {
+        describe: 'solidity files to be inserted in',
+        type: 'string'
+      })
+  }, (argv) => {
+    eventgen(argv.files)
+  })
+  .command('dependencies <files..>', 'generate draggable graph of tree for both of inheritance and using dependencies.', (yargs) => {
+    yargs
+      .positional('files', {
+        describe: 'files to analyze',
+        type: 'string'
+      })
+  }, (argv) => {
+    dependencies(argv.files)
+  })
+  .command('truffletogeth <varname> <address> <jsonfilepath>', 'generate variable definition for geth from truffle build file..', (yargs) => {
+    yargs
+      .positional('varname', {
+        describe: 'variable name for geth',
+        type: 'string'
+      })
+      .positional('address', {
+        describe: 'contract address',
+        type: 'string'
+      })
+      .positional('jsonfilepath', {
+        describe: 'json file path which truffle generates during build',
+        type: 'string'
+      })
+  }, (argv) => {
+    truffletogeth(argv.varname, argv.address, argv.jsonfilepath)
+  })
+  .help()
+  .alias('h', 'help')
+  .version()
+  .alias('v', 'version')
+  .argv

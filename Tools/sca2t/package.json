@@ -1,0 +1,41 @@
+{
+  "name": "sca2t",
+  "version": "0.8.0",
+  "description": "sca2t (Smart Contract Audit Assistant Tool): A set of utilities for auditing Solidity contracts.",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "prepare": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity",
+    "solc",
+    "Ethereum",
+    "audit",
+    "blockchain",
+    "smartcontract"
+  ],
+  "author": "Teruhiro Tagomori(https://github.com/tagomaru)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tagomaru/sca2t.git"
+  },
+  "license": "GPL-3.0",
+  "bin": "./bin/sca2t",
+  "dependencies": {
+    "antlr4": "^4.7.1",
+    "detect-installed": "^2.0.4",
+    "dot-object": "^1.7.0",
+    "get-installed-path": "^4.0.8",
+    "jquery": "3.3.1",
+    "jsplumb": "2.8.0",
+    "moment": "^2.22.2",
+    "solidity-parser-antlr": "^0.3.2",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
