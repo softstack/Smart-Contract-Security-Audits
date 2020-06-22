@@ -11,49 +11,57 @@ An Analysis Tool for Smart Contracts
 
 ## Quick Start
 
-A container with required dependencies configured can be found [here](https://hub.docker.com/r/luongnguyen/oyente/). The image is however outdated. We are working on pushing the latest image to dockerhub for your convenience. If you experience any issue with this image, please try to build a new docker image by pulling this codebase before open an issue.
+Oyente tool requires the following dependencies:
 
-To open the container, install docker and run:
-
-```
-docker pull luongnguyen/oyente && docker run -i -t luongnguyen/oyente
-```
-
-To evaluate the greeter contract inside the container, run:
+There are two methods for this, both methods need the following commands to be run
+If you haven’t installed python in your system, run the following commands
 
 ```
-cd /oyente/oyente && python oyente.py -s greeter.sol
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt-get install python3
 ```
 
-and you are done!
-
-Note - If need the [version of Oyente](https://github.com/melonproject/oyente/tree/290f1ae1bbb295b8e61cbf0eed93dbde6f287e69) referred to in the paper, run the container from [here](https://hub.docker.com/r/hrishioa/oyente/)
-
-To run the web interface, execute
-`docker run -w /oyente/web -p 3000:3000 oyente:latest ./bin/rails server`
-
-## Custom Docker image build
+Install z3. For this, download the file from this link here.
+Extract files, move into the directory and run the following commands (this gonna take a while more than you expect):
 
 ```
-docker build -t oyente .
-docker run -it -p 3000:3000 -e "OYENTE=/oyente/oyente" oyente:latest
+wget https://github.com/Z3Prover/z3/archive/z3-4.5.0.tar.gz
+tar xvzf z3-4.5.0.tar.gz
 ```
 
-Open a web browser to `http://localhost:3000` for the graphical interface.
+```
+python scripts/mk_make.py -python
+cd build
+make
+sudo make install
+```
+You need to install this library,
+```
+sudo apt-get install libz3-dev
+```
 
-## Installation
+## Installing the Oyente tool:
+For this you need to install pip
+```
+sudo apt install python3-pip
+```
 
-Execute a python virtualenv
+Exectute the following commands:
 
 ```
-python -m virtualenv env
-source env/bin/activate
+sudo apt-get install solc
+sudo apt-get install evm
+pip3 install web3==3.7.0
+pip3 install oyente
 ```
 
-Install Oyente via pip:
+The above command fails and returns an error in most of the cases, if it works you can use by running the below commands:
 
 ```
-$ pip2 install oyente
+oyente -s <contract name>
+
 ```
 Dependencies:
 
@@ -61,52 +69,6 @@ The following require a Linux system to fufill. macOS instructions forthcoming.
 
 [solc](https://github.com/melonproject/oyente#solc)
 [evm](https://github.com/melonproject/oyente#evm-from-go-ethereum)
-
-## Full installation
-
-### Install the following dependencies
-#### solc
-```
-$ sudo add-apt-repository ppa:ethereum/ethereum
-$ sudo apt-get update
-$ sudo apt-get install solc
-```
-
-#### evm from [go-ethereum](https://github.com/ethereum/go-ethereum)
-
-1. https://geth.ethereum.org/downloads/ or
-2. By from PPA if your using Ubuntu
-```
-$ sudo apt-get install software-properties-common
-$ sudo add-apt-repository -y ppa:ethereum/ethereum
-$ sudo apt-get update
-$ sudo apt-get install ethereum
-```
-
-#### [z3](https://github.com/Z3Prover/z3/releases) Theorem Prover version 4.5.0.
-
-Download the [source code of version z3-4.5.0](https://github.com/Z3Prover/z3/releases/tag/z3-4.5.0)
-
-Install z3 using Python bindings
-
-```
-$ python scripts/mk_make.py --python
-$ cd build
-$ make
-$ sudo make install
-```
-
-#### [Requests](https://github.com/kennethreitz/requests/) library
-
-```
-pip install requests
-```
-
-#### [web3](https://github.com/pipermerriam/web3.py) library
-
-```
-pip install web3
-```
 
 ### Evaluating Ethereum Contracts
 
