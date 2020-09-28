@@ -1,0 +1,34 @@
+{
+  "name": "compound-protocol",
+  "version": "0.2.1",
+  "description": "The Compound Money Market",
+  "main": "index.js",
+  "scripts": {
+    "compile": "./script/compile",
+    "console": "if node -v | grep -E \"v(12|13)\" > /dev/null; then flags=\"-n --experimental-repl-await\"; fi; npx $flags saddle console",
+    "coverage": "./script/coverage",
+    "deploy": "./scenario/script/repl -s ./script/scen/deploy.scen",
+    "lint": "./script/lint",
+    "repl": "./scenario/script/repl",
+    "profile": "yarn test tests/gasProfiler.js",
+    "test": "./script/test",
+    "test:prepare": "NO_RUN=true ./script/test"
+  },
+  "repository": "git@github.com:compound-finance/compound-protocol.git",
+  "author": "Compound Finance",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "bignumber.js": "8.0.1",
+    "jest-diff": "^24.9.0",
+    "jest-junit": "^6.4.0",
+    "solium": "^1.2.5",
+    "solparse": "^2.2.8"
+  },
+  "dependencies": {
+    "eth-saddle": "^0.1.17"
+  },
+  "resolutions": {
+    "scrypt.js": "https://registry.npmjs.org/@compound-finance/ethereumjs-wallet/-/ethereumjs-wallet-0.6.3.tgz",
+    "**/ganache-core": "github:compound-finance/ganache-core.git#jflatow/unbreak-fork"
+  }
+}
