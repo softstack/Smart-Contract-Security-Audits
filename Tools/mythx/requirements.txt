@@ -4,4 +4,4 @@ pythx==1.6.1
 tabulate==0.8.7
 Jinja2==2.11.2
 htmlmin==0.1.12
-PyYAML==5.3.1
+PyYAML==5.4
