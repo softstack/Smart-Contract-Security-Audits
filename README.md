@@ -4,15 +4,21 @@ While the rise of blockchain presents a unique opportunity to create smart contr
 
 To mitigate these risks, it is necessary to conduct Smart Contract Security Audits, also to provide transparency to the investors and community.
 
-Chainsulting provides an audit with the German technology and security standards, which are the highest in the world. An audit by Chainsulting includes the following:
+Chainsulting provides an audit with the German technology and security standards, which are the highest in the world. 
 
-✔ Certificate of Compliance <br>
-✔ Full Report & Recommendations <br>
-✔ Automated Vulnerability Test (Mythril, Slither, Oyente)<br>
-✔ Manual Security Testing (SWC-Registry, Overflow)<br>
+Our Process
+1. Automated Vulnerability Test (Mythril, Slither, Oyente, Solhint, HoneyBadger, Internal Tool,...)<br>
+2. Manual Security Test (Line by line, SWC-Registry, Overflow, CVE, Gamification of functions,...)<br>
+3. Optimization & Code Convention Check<br>
+4. Verify Claims (Your general functions and business logic gets double checked)<br>
+5. Full Report & Recommendations (If we find critical or high issues doing the audit, we will reach out immediately)<br>
+PR:<br>
+- Social Media Post (@chainsulting verified Twitter)<br>
+- Reflecting the audit on our GitHub & Website<br>
+- Audit displayed on your CMC Listing (Token)<br>
 
 
-Get Your Smart Contract Security Audit Today!
+<b>Get Your Smart Contract Security Audit Today!</b>
 
 Contact:<br>
 hello@chainsulting.de<br>
