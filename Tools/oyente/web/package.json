@@ -1,7 +1,0 @@
-{
-  "dependencies" :
-  {
-    "browserify" : ">=15.2.0",
-    "browserify-incremental" : "3.1.1"
-  }
-}
