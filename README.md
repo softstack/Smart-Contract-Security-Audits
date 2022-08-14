@@ -17,6 +17,8 @@ PR:<br>
 - Reflecting the audit on our GitHub & Website<br>
 - Audit displayed on your CMC Listing (Token)<br>
 
+<b> Awarded as Top Open-Source project</b>
+<a href="https://gitclone.dev/top-ethereum-contract-open-source-projects-on-github/">https://gitclone.dev/top-ethereum-contract-open-source-projects-on-github/</a>
 
 <b>Get Your Smart Contract Security Audit Today!</b>
 
