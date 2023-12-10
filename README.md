@@ -1,4 +1,4 @@
-# Smart Contracts Audits by Chainsulting
+# Smart Contracts Audits by softstack (formerly Chainsulting)
 Smart Contract Audits (Ethereum, Hyperledger, EOS, Tezos)  by a reputable company are an essential part of any smart contract development. 
 While the rise of blockchain presents a unique opportunity to create smart contracts for digital assets, such as Utility or Security token. Smart Contract applications come with unique security concerns that have historically led to millions of USD in losses (The DAO or Parity Freeze).
 
@@ -13,7 +13,7 @@ Our Process
 4. Verify Claims (Your general functions and business logic gets double checked)<br>
 5. Full Report & Recommendations (If we find critical or high issues doing the audit, we will reach out immediately)<br>
 PR:<br>
-- Social Media Post (@chainsulting verified Twitter)<br>
+- Social Media Post (@softstackHQ verified Twitter)<br>
 - Reflecting the audit on our GitHub & Website<br>
 - Audit displayed on your CMC Listing (Token)<br>
 
@@ -21,6 +21,6 @@ PR:<br>
 <b>Get Your Smart Contract Security Audit Today!</b>
 
 Contact:<br>
-hello@chainsulting.de<br>
-http://t.me/chainsulting<br>
-https://chainsulting.de<br>
+hello@softstack.io<br>
+https://t.me/softstack<br>
+https://softstack.io<br>
