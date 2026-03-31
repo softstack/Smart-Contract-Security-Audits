@@ -63,9 +63,9 @@ With a track record spanning **1,200+ audits** across 20+ blockchains and **zero
 |---------|--------|-----------|-----------|
 | **BitGo** | Digital Asset Custody & Risk Assessment | **$100B+ AUC** | Smart contract audits and digital asset risk assessment for the world's largest institutional crypto custodian — IPO'd in January 2026 |
 | **Anchorage Digital** | Federally Chartered Crypto Bank | **$50B+ AUC** | Smart contract audits and digital asset risk assessment for the only OCC-chartered crypto bank in the US |
-| **AllUnity** *(DWS × Flow Traders × Galaxy JV)* | MiCAR Euro Stablecoin | Institutional-grade | Full audit of MiCA-compliant upgradeable stablecoin — zero critical issues found |
+| **AllUnity** *(DWS × Flow Traders × Galaxy JV)* | MiCAR Euro Stablecoin | Institutional-grade | Full audit of MiCA-compliant upgradeable stablecoin |
 | **Siemens AG** | Industrial / Tokenized Bonds | **€300M+ digital bond** | Smart contract engagement supporting Germany's largest industrial company in its landmark blockchain bond issuance under Germany's eWpG |
-| **Hal Bank** | Traditional Banking / Web3 | Institutional-grade | Smart Contract Audit
+| **HAL Bank** | Traditional Banking / Web3 | Institutional-grade | Smart Contract Audit
 
 ### 🌐 Blockchain Infrastructure & Token Standards
 
@@ -118,7 +118,7 @@ With a track record spanning **1,200+ audits** across 20+ blockchains and **zero
 ![Arbitrum](https://img.shields.io/badge/Arbitrum-28A0F0?style=flat-square)
 ![Optimism](https://img.shields.io/badge/Optimism-FF0420?style=flat-square)
 ![zkSync](https://img.shields.io/badge/zkSync-4E529A?style=flat-square)
-
+and more...
 ---
 
 ## 🔍 Our Audit Methodology
@@ -126,7 +126,7 @@ With a track record spanning **1,200+ audits** across 20+ blockchains and **zero
 Every Softstack audit follows a rigorous, multi-phase process aligned with **German engineering and security standards**:
 
 ### Phase 1 — Automated Vulnerability Analysis
-- Tools: **Mythril, Slither, Oyente, Solhint, HoneyBadger**, and proprietary internal tooling
+- Tools: **Mythril, Slither, Oyente, Solhint, HoneyBadger, Solidcheck, Custom AI Tooling**, and proprietary internal tooling
 
 ### Phase 2 — Manual Security Review
 - Line-by-line code review, fuzzing, edge case testing, and business logic validation
@@ -148,7 +148,7 @@ Every Softstack audit follows a rigorous, multi-phase process aligned with **Ger
 
 ## 📣 Post-Audit Visibility
 
-- 📌 **GitHub listing** — Report published in this repository
+- 📌 **GitHub listing** — A few reports are published in this repository
 - 🐦 **Social Media Announcement** — Shared via [@softstackHQ](https://twitter.com/softstackHQ)
 - 🌐 **Website Feature** — Highlighted on [softstack.io](https://softstack.io)
 - 📊 **CoinMarketCap Badge** *(for token projects)*
