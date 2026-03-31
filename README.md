@@ -1,6 +1,12 @@
 <div align="center">
 
-<img src="https://softstack.io/wp-content/uploads/2023/06/softstack-logo.svg" alt="Softstack Logo" width="300"/>
+<p align="center">
+  <img 
+    src="https://softstack.io/wp-content/uploads/sites/3/2026/03/softstack_Logo_Monochrome_ws.png" 
+    width="280"
+    alt="Softstack Logo"
+  />
+</p>
 
 # 🔐 Smart Contract Security Audits
 ### by Softstack — Germany & Europe's #1 Web3 Security Firm
