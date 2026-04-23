@@ -54,10 +54,11 @@ With a track record spanning **1,200+ audits** across 20+ blockchains and **zero
 
 | Partner | Role |
 |---------|------|
-| 🟣 **Proof of Talk** | Official Web3 Security & Development Partner — the world's #1 Web3 networking event (Paris) |
+| 🟣 **Proof of Talk** | Official Web3 Security & Development Partner — the world's #1 Web3 networking event (Paris), https://softstack.io/insights/softstack-partners-with-xventures-and-proof-of-talk/ |
 | 🔵 **Tenity** | Global Innovation Ecosystem Partner — network of 1,600+ fintech and Web3 startups |
 | 🏦 **AMINA Bank** | Institutional Crypto Banking Partner — Switzerland's leading regulated crypto bank |
 | ⚡ **X Ventures** | Partner in Web3 Founders Growth Program |
+| 💲 **Circlee** | Trusted Partner in Circle Alliance Program, https://partners.circle.com/partner/softstack | 
 
 ---
 
