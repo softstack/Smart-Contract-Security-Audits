@@ -1,0 +1,41 @@
+# Curate Smart Contract Audit Reports
+
+## Overview
+
+This folder contains historical public smart contract audit materials completed by Softstack for Curate.
+
+Curate is included in Softstack’s public audit archive as a token smart contract security reference covering XCUR token contracts across Ethereum and BNB Chain.
+
+## Audit Information
+
+Project: Curate  
+Audit type: Token smart contract audit and certificates  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Reports
+
+[01_Certificate_Curate_XCUR_BSC.pdf](./01_Certificate_Curate_XCUR_BSC.pdf)
+
+[01_Certificate_Curate_XCUR_ETH.pdf](./01_Certificate_Curate_XCUR_ETH.pdf)
+
+[01_Certificate_Curate_XCUR_Token.pdf](./01_Certificate_Curate_XCUR_Token.pdf)
+
+[02_Smart Contract Audit_Curate_XCUR_Token.pdf](./02_Smart%20Contract%20Audit_Curate_XCUR_Token.pdf)
+
+[02_Smart_Contract_Audit_Curate_NEW_XCUR_BSC.pdf](./02_Smart_Contract_Audit_Curate_NEW_XCUR_BSC.pdf)
+
+[02_Smart_Contract_Audit_Curate_NEW_XCUR_ETH.pdf](./02_Smart_Contract_Audit_Curate_NEW_XCUR_ETH.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed token smart contract security work across multiple networks.
+
+## Summary
+
+This folder is a historical reference for Softstack’s token smart contract audit work, including XCUR related contracts on Ethereum and BNB Chain.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
