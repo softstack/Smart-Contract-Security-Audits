@@ -1,0 +1,58 @@
+# Pantos Smart Contract Audit Report
+
+## Overview
+
+This folder contains a public smart contract audit report for **Pantos**, the multichain interoperability project created by the team behind **Bitpanda**.
+
+Softstack audited the **Pantos Core** smart contract infrastructure, providing security review support for a project focused on cross-blockchain token transfers and multichain asset interoperability.
+
+## About Pantos
+
+**Pantos** is a multichain token and interoperability project initiated by the Bitpanda team. It is designed to make digital assets more portable across blockchains and to support a more connected multichain ecosystem.
+
+That makes Pantos much more than a simple token project. It is infrastructure aimed at solving one of the most important technical problems in Web3: how assets and token systems can move securely across different blockchain environments.
+
+## Why This Project Matters
+
+Pantos is an important public reference because it is tied directly to the broader **Bitpanda** ecosystem and its long-term infrastructure vision around multichain interoperability.
+
+This audit is especially relevant as a public proof point for:
+
+- multichain smart contract security
+- interoperability infrastructure audits
+- Bitpanda blockchain infrastructure
+- core protocol smart contract reviews
+- security work for cross-chain asset systems
+
+For buyers and partners, this is strong social proof because it shows Softstack supporting security-critical blockchain infrastructure connected to one of Europe's best-known digital asset platforms.
+
+## Softstack Audit Scope
+
+This folder contains the following public report:
+
+- [Softstack_Smart_Contract_Audit_Pantos_Core_21102024.pdf](./Softstack_Smart_Contract_Audit_Pantos_Core_21102024.pdf)
+
+The file name indicates a **core smart contract audit**, which makes this a particularly strong proof point for foundational protocol security rather than a peripheral feature review.
+
+## Related Public References
+
+- [Bitpanda Academy overview of Pantos](https://www.bitpanda.com/en/academy/pantos-and-the-problem-of-cross-blockchain-token-transfers)
+- [Softstack case study on the Pantos audit](https://softstack.io/case-study/security-audit-of-pantos-node-infrastructure-and-smart-contracts/)
+- https://www.veritasprotocol.com/blog/softstack-completes-security-audit-for-pantos-smart-contracts
+
+## Why This Folder Is Valuable
+
+This folder is useful as a public reference for anyone looking for:
+
+- Pantos audit report
+- Bitpanda ecosystem smart contract audit
+- cross-chain interoperability security review
+- multichain token infrastructure audit
+- Softstack smart contract audits
+- core protocol audit examples
+
+## Summary
+
+This folder highlights Softstack's public smart contract audit work for **Pantos**, a multichain interoperability project created by the team behind **Bitpanda**.
+
+It is a strong public reference for Softstack's ability to support **core protocol security**, **cross-chain infrastructure**, and **multichain token system audits**.
