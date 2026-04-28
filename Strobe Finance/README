@@ -1,0 +1,70 @@
+# Strobe Finance Smart Contract Audit Report
+
+## Overview
+
+This folder contains a public smart contract audit report for **Strobe Finance**, a DeFi protocol building money market infrastructure on XRPL and the XRPL EVM sidechain.
+
+Softstack audited the **Strobe Protocol** smart contracts, providing security review support for a project positioned around decentralized lending, borrowing, and yield infrastructure connected to the expanding XRPL and cross-chain ecosystem.
+
+## About Strobe Finance
+
+**Strobe Finance** is a DeFi protocol focused on money markets, lending, borrowing, and yield infrastructure for XRP-native and XRPL-connected assets.
+
+Strobe is especially notable because it sits at the intersection of:
+
+- XRPL-native DeFi
+- XRPL EVM sidechain growth
+- cross-chain connectivity through Axelar
+- decentralized money market infrastructure
+
+This gives the project significance beyond a standard DeFi deployment on a generic EVM chain.
+
+## Why This Project Matters
+
+Strobe is a strong public reference because it reflects security work in a fast-emerging part of the market: **cross-chain DeFi infrastructure linked to XRPL**.
+
+That makes this audit particularly relevant for:
+
+- DeFi smart contract audits
+- cross-chain lending protocol security
+- XRPL ecosystem security work
+- XRPL EVM infrastructure audits
+- money market and yield protocol reviews
+
+For buyers and partners, this is valuable because Strobe is tied to one of the more important new ecosystem expansions around XRP, smart contracts, and cross-chain capital flows.
+
+## Cross-Chain Relevance
+
+Strobe's architecture is built around XRPL, Axelar, and the XRPL EVM sidechain.
+
+That matters because the XRPL EVM sidechain expands XRPL into programmable smart contract infrastructure, while Axelar provides connectivity to a broad multichain ecosystem. This makes Strobe relevant not just as a local DeFi protocol, but as part of a larger cross-chain financial infrastructure stack.
+
+## Softstack Audit Scope
+
+This folder contains the following public report:
+
+- [Softstack_Strobe_Protocol_Smart_Contract_Audit_27072025.pdf](./Softstack_Strobe_Protocol_Smart_Contract_Audit_27072025.pdf)
+
+The report is a strong public reference for Softstack's work in DeFi security, money market infrastructure, and cross-chain smart contract auditing.
+
+## Related Public References
+
+- [Strobe Finance public audit report](https://audits.strobe.finance/softstack_27_07_2025.pdf)
+- [Softstack case study on the Strobe Finance audit](https://softstack.io/case-study/smart-contract-audit-for-strobe-finance-cross-chain-money-market-on-xrpl-evm/)
+
+## Why This Folder Is Valuable
+
+This folder is useful as a public reference for anyone looking for:
+
+- Strobe Finance audit report
+- XRPL DeFi security review
+- cross-chain money market audit
+- XRPL EVM smart contract audit
+- Softstack DeFi smart contract audits
+- lending and borrowing protocol security examples
+
+## Summary
+
+This folder highlights Softstack's public smart contract audit work for **Strobe Finance**, a DeFi protocol building lending, borrowing, and money market infrastructure across **XRPL, XRPL EVM, and cross-chain connectivity layers**.
+
+It is a strong public reference for Softstack's ability to support **cross-chain DeFi security**, **money market smart contract audits**, and **security-critical infrastructure in the growing XRP ecosystem**.
