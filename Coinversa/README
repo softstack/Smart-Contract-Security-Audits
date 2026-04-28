@@ -1,0 +1,74 @@
+# Coinversa Security Audit Reports
+
+## Overview
+
+This folder contains public security audit reports for **Coinversa**, a platform building infrastructure for non-custodial onchain trading on the Canton Network.
+
+Softstack completed **two separate security engagements for Coinversa**, together covering both the **Canton smart contract layer** and the **backend and frontend application stack**. This makes the folder a strong public example of **full-stack Web3 security work**, spanning onchain logic as well as application-layer infrastructure.
+
+## About Coinversa
+
+**Coinversa** is building infrastructure for non-custodial onchain trading. The platform is designed to help users analyze markets, coordinate multiple wallets, and execute trades directly from their own custody while maintaining portfolio visibility, market intelligence, and coordinated execution workflows.
+
+At the core of Coinversa's architecture is a private identity and reconciliation layer anchored on the **Canton Network**, with **Hyperliquid** as the first supported trading venue.
+
+## Why This Project Matters
+
+Coinversa is not just a simple smart contract project. It sits at the intersection of:
+
+1. non-custodial trading infrastructure  
+2. multi-wallet coordination  
+3. private identity and reconciliation  
+4. backend and frontend application security  
+5. smart contract security on Canton  
+
+That makes this folder especially valuable as a public proof point for Softstack's ability to secure **more complex Web3 systems**, where risk exists not only in smart contracts, but also in the surrounding application stack, trading logic, integrations, and user-facing infrastructure.
+
+## Softstack Audit Coverage
+
+This folder contains two public audit reports:
+
+1. [softstack_coinversa_backend_frontend_codebase_security_audit_report_03172026.pdf](./softstack_coinversa_backend_frontend_codebase_security_audit_report_03172026.pdf)
+
+2. [softstack_coinversa_canton_smart_contracts_security_audit_report_03172026.pdf](./softstack_coinversa_canton_smart_contracts_security_audit_report_03172026.pdf)
+
+Together, these reports show security review coverage across both:
+
+1. **Canton smart contracts**
+2. **backend and frontend codebase security**
+
+This gives the engagement broader relevance than a standard one-scope contract review.
+
+## Why This Audit Relationship Is Strong
+
+The Coinversa folder shows **multiple public security engagements** completed for the same project in the same period, covering separate layers of the system.
+
+That is an important trust signal because it shows Softstack was engaged to review not just isolated onchain code, but the broader platform architecture around it. For buyers, founders, and technical teams, this is often a stronger signal than a single smart contract PDF, because real-world Web3 risk frequently spans both smart contracts and offchain infrastructure.
+
+## Technology and Infrastructure Relevance
+
+Coinversa's architecture is notable because it combines non-custodial trading flows with a private identity layer anchored on the **Canton Network**. Canton is positioned for privacy-aware, institutional-grade onchain applications and tokenized asset workflows, which makes this engagement relevant beyond retail DeFi use cases. 
+
+The use of **Hyperliquid** as the first supported venue also places the project in the fast-growing onchain trading and derivatives infrastructure category, which is one of the more security-sensitive segments in Web3.
+
+## Related Public References
+
+- [Coinversa official website](https://www.coinversa.ai/)
+- [Softstack case study on the Coinversa audit](https://softstack.io/case-study/coinversa-completes-independent-security-audit-with-softstack/)
+
+## Why This Folder Is Valuable
+
+This folder is a useful public reference for anyone looking for:
+
+1. Coinversa audit reports
+2. Softstack security audits
+3. Canton smart contract audit examples
+4. backend and frontend Web3 security reviews
+5. non-custodial trading infrastructure audits
+6. full-stack blockchain security case studies
+
+## Summary
+
+This folder highlights Softstack's public security audit work for **Coinversa**, covering both **Canton smart contracts** and the **backend and frontend application stack**.
+
+It is a strong public proof point for Softstack's ability to support **full-stack Web3 security**, especially for projects involving **non-custodial trading infrastructure**, **private identity and reconciliation systems**, and **security-sensitive multi-layer architectures**.
