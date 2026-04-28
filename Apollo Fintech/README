@@ -1,0 +1,19 @@
+# Apollo Fintech Sharding Verification Audit Report
+## Overview
+This folder contains historical public audit materials completed by Softstack
+for Apollo Fintech and Apollo Foundation.
+## Audit Information
+Project: Apollo Fintech
+Audit type: Sharding verification audit
+Repository category: Historical public audit archive
+Public report: Available in this folder
+Project status: Public activity may have changed after audit completion
+## Public Audit Reports
+[01_Certificate_Sharding_Apollo_Foundation.pdf](./
+01_Certificate_Sharding_Apollo_Foundation.pdf)
+[02_Apollo_Sharding_Verification_Audit.pdf](./
+02_Apollo_Sharding_Verification_Audit.pdf)
+## Summary
+This folder is preserved as a historical reference for Softstack’s work on
+blockchain infrastructure and sharding related verification.
+Learn more about Softstack smart contract audits: https://softstack.io/smartcontract-audit/
