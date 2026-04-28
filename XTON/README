@@ -1,0 +1,58 @@
+# XTON Smart Contract Audit Report
+
+## Overview
+
+This folder contains a public smart contract audit report for **XTON**, a TON ecosystem wallet and Web3 access layer.
+
+Softstack audited **XTON Core** smart contract infrastructure, providing security review support for a project positioned around wallet functionality, dApp access, and user interaction within the TON ecosystem.
+
+## About XTON
+
+**XTON** is a TON-focused wallet and Web3 gateway designed for the TON blockchain. Public project descriptions position XTON as a functional wallet for creating accounts, managing assets, interacting with dApps, and accessing TON-based Web3 services.
+
+That makes XTON relevant as more than a simple token. It is part of the user access and interaction layer for the TON ecosystem.
+
+## Why This Project Matters
+
+XTON is significant because wallet and gateway products sit close to the end user and often act as an access layer into broader blockchain activity.
+
+That makes this audit a strong public reference for:
+
+- TON ecosystem security
+- wallet-related blockchain infrastructure
+- Web3 access layer smart contract audits
+- core smart contract security
+- security work tied to user-facing blockchain infrastructure
+
+For buyers and partners, this is useful because security around wallet-adjacent and access-layer products directly affects trust, usability, and user safety.
+
+## TON Ecosystem Relevance
+
+XTON publicly positions itself as a wallet and gateway to Web3 apps on TON. Listings in TON ecosystem directories also describe XTON as a non-custodial TON wallet with support for dApp interaction, multi-account functionality, smart contract interaction, and related user-facing features.
+
+This gives the project relevance as part of the broader TON user experience stack.
+
+## Softstack Audit Scope
+
+This folder contains the following public report:
+
+- [Smart_Contract_Audit_XTON_Core_21032024.pdf](./Smart_Contract_Audit_XTON_Core_21032024.pdf)
+
+The file name indicates a **core smart contract audit**, making this a strong public reference for foundational security work within the XTON product stack.
+
+## Why This Folder Is Valuable
+
+This folder is useful as a public reference for anyone looking for:
+
+- XTON audit report
+- TON wallet security review
+- TON ecosystem smart contract audit
+- core smart contract audit example
+- Softstack TON security audits
+- Web3 wallet infrastructure security
+
+## Summary
+
+This folder highlights Softstack's public smart contract audit work for **XTON**, a TON ecosystem wallet and Web3 gateway.
+
+It is a strong public reference for Softstack's ability to support **core smart contract security**, **TON ecosystem infrastructure**, and **user-facing blockchain products where security and trust are critical**.
