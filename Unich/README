@@ -1,0 +1,71 @@
+# Unich Smart Contract and Solana Program Audit Report
+
+## Overview
+
+This folder contains a public audit report for **Unich**, a multi-chain OTC trading and pre-market infrastructure platform.
+
+Softstack audited **Unich OTC** across both **EVM smart contracts** and a **Solana program**, making this a strong public reference for multi-chain security work rather than a single-chain review.
+
+## About Unich
+
+**Unich** is a blockchain trading platform focused on OTC and pre-market digital asset trading. The platform positions itself as a one-stop OTC marketplace where users can trade tokens before listing and execute peer-to-peer transactions through smart contracts rather than intermediaries.
+
+Unich also publicly describes its wallet and platform as multi-chain, supporting EVM-compatible chains, Solana, and Bitcoin.
+
+## Why This Project Matters
+
+Unich stands out because it combines several important security dimensions in one engagement:
+
+- OTC trading infrastructure
+- pre-market token trading
+- EVM smart contracts
+- Solana program security
+- multi-chain asset workflows
+
+That makes this audit a strong public reference for:
+
+- multi-chain smart contract security
+- Solana program audits
+- OTC trading platform security
+- pre-market trading infrastructure audits
+- cross-ecosystem Web3 application security
+
+For buyers and partners, this is valuable because multi-chain trading systems create more complexity and more room for implementation mistakes than simple single-chain token projects.
+
+## Multi-Chain Relevance
+
+Unich publicly positions its wallet and OTC platform around multi-chain asset management and trading. Its documentation describes support for EVM-compatible chains, Solana, and Bitcoin, while its OTC product is framed as onchain, smart contract-driven, and designed for pre-listing and pre-market transactions.
+
+That makes this engagement especially useful as a public proof point for **multi-chain security work across both EVM and Solana environments**.
+
+## Softstack Audit Scope
+
+This folder contains the following public report:
+
+- [Softstack_EVM_Smart_Contract_Solana_Program_Audit_Unich_OTC_11032025.pdf](./Softstack_EVM_Smart_Contract_Solana_Program_Audit_Unich_OTC_11032025.pdf)
+
+The file name indicates a combined audit spanning both **EVM smart contracts** and a **Solana program**, which is a strong signal of broader technical coverage.
+
+## Related Public References
+
+- [Unich Facebook announcement on the Softstack audit](https://www.facebook.com/Unich.official/posts/we-build-security-in-every-line-of-codesoftstacks-audit-keeps-unichs-otc-smart-c/122155669010648397/)
+- [Softstack case study on the Unich OTC smart contract audit](https://softstack.io/case-study/unich-otc-smart-contract-audit/)
+- [Unich Facebook video about the audit](https://www.facebook.com/Unich.official/videos/1169943408057480/)
+- [Third-party coverage of the Unich audit](https://globalfintechseries.com/trading/softstack-secures-unichs-smart-contracts-fixing-critical-risks-in-otc-trading/)
+
+## Why This Folder Is Valuable
+
+This folder is useful as a public reference for anyone looking for:
+
+- Unich audit report
+- OTC trading smart contract audit
+- Solana program audit example
+- multi-chain Web3 security review
+- pre-market token trading security
+- Softstack multi-chain audits
+
+## Summary
+
+This folder highlights Softstack's public audit work for **Unich**, a multi-chain OTC and pre-market trading platform.
+
+It is a strong public reference for Softstack's ability to support **multi-chain security reviews**, **EVM smart contract auditing**, **Solana program audits**, and **security-critical trading infrastructure**.
