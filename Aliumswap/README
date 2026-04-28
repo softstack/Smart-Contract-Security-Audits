@@ -1,0 +1,22 @@
+# Aliumswap Smart Contract Audit Reports
+## Overview
+This folder contains historical public smart contract audit reports and
+certificates completed by Softstack for Aliumswap.
+## Audit Information
+Project: Aliumswap
+Audit type: DeFi and AMM smart contract audit
+Repository category: Historical public audit archive
+Public report: Available in this folder
+Project status: Public activity may have changed after audit completion
+## Public Audit Reports
+[01_Certificate_Aliumswap.pdf](./01_Certificate_Aliumswap.pdf)
+[01_Certificate_Aliumswap_AMM.pdf](./01_Certificate_Aliumswap_AMM.pdf)
+[02_Smart Contract Audit_AliumSwap_Core.pdf](./
+02_Smart%20Contract%20Audit_AliumSwap_Core.pdf)
+[02_Smart Contract Audit_Aliumswap.pdf](./
+02_Smart%20Contract%20Audit_Aliumswap.pdf)
+## Summary
+2
+This folder is a historical reference for Softstack’s DeFi audit work,
+including AMM and core smart contract review coverage.
+Learn more about Softstack smart contract audits: https://softstack.io/smartcontract-audit/
