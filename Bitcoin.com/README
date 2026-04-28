@@ -1,0 +1,67 @@
+# Bitcoin.com Smart Contract Audit Report
+
+## Overview
+
+This folder contains a public smart contract audit report for **Bitcoin.com**, one of the best known consumer-facing brands in cryptocurrency and digital asset infrastructure.
+
+**Softstack audited Bitcoin.com’s Dynamic Rewards Farming smart contract** as part of the security review for a core rewards component within the **VERSE ecosystem**, focused on staking, reward distribution, and DeFi participation. :contentReference[oaicite:0]{index=0}
+
+## About Bitcoin.com
+
+**[Bitcoin.com](https://www.bitcoin.com/)** is a long-standing cryptocurrency platform offering products and infrastructure for buying, selling, using, and exploring digital assets. Within its broader product ecosystem, **VERSE** serves as a utility and rewards layer designed to support user engagement across Bitcoin.com’s Web3 products and DeFi experiences. :contentReference[oaicite:1]{index=1}
+
+The audited contract in this folder relates to **Dynamic Rewards Farming**, a smart contract system used within the VERSE ecosystem to manage staking-based incentives and reward flows. :contentReference[oaicite:2]{index=2}
+
+## Why This Project Matters
+
+Bitcoin.com is not an early-stage or obscure protocol. It is a globally recognized crypto brand with a large retail audience and a broad product footprint.
+
+That makes this audit a strong public reference for:
+
+- DeFi smart contract security
+- farming and staking contract audits
+- reward distribution logic
+- user-facing Web3 infrastructure
+- production-grade smart contract systems with live user exposure
+
+For security buyers, partners, and researchers, this is especially relevant because contracts tied to rewards and staking are highly sensitive. They directly affect user balances, incentive alignment, and trust in the broader ecosystem. :contentReference[oaicite:3]{index=3}
+
+## Ecosystem Relevance
+
+The audit sits within the **[VERSE ecosystem](https://verse.bitcoin.com/)**, Bitcoin.com’s token and rewards environment for Web3 participation. According to Softstack’s public case study, the Dynamic Reward Farming contract is a key feature that allows users to earn rewards based on staking activity. :contentReference[oaicite:4]{index=4}
+
+This makes the audit relevant not only as a contract-level security review, but also as a reference for infrastructure that supports incentive design, reward accounting, and user participation in DeFi systems. :contentReference[oaicite:5]{index=5}
+
+## Softstack Audit Scope
+
+This folder contains the following public audit report for Bitcoin.com:
+
+- [dynamic-rewards-farming-audit.pdf](./dynamic-rewards-farming-audit.pdf)
+
+The public audit report is titled **Bitcoin.com Verse Dynamic Rewards Farming Smart Contract Audit** and is dated **22.10.2024**. :contentReference[oaicite:6]{index=6}
+
+## Related Public References
+
+- [Bitcoin.com official website](https://www.bitcoin.com/)
+- [VERSE ecosystem](https://verse.bitcoin.com/)
+- [Softstack case study on the Bitcoin.com audit](https://softstack.io/case-study/securing-bitcoin-coms-farming-contracts/)
+
+## Why This Audit Is a Strong Reference
+
+This audit is a strong public proof point for Softstack’s work in:
+
+- DeFi smart contract audits
+- farming and staking security reviews
+- reward logic validation
+- production-facing Web3 infrastructure
+- high-visibility crypto ecosystem security
+
+According to Softstack’s public case study, the review focused on code integrity, vulnerability mitigation, access control, gas efficiency, and reward calculation accuracy. The case study also states that no critical or high-risk vulnerabilities were found, while several minor improvements were identified and addressed or acknowledged. :contentReference[oaicite:7]{index=7}
+
+## Summary
+
+This folder highlights Softstack’s public smart contract audit work for **[Bitcoin.com](https://www.bitcoin.com/)** and its **[VERSE ecosystem](https://verse.bitcoin.com/)**.
+
+It is a strong public reference for Softstack’s ability to secure user-facing DeFi infrastructure where staking logic, reward distribution, and contract reliability are central to platform trust.
+
+For additional context on the engagement, see the **[Softstack Bitcoin.com case study](https://softstack.io/case-study/securing-bitcoin-coms-farming-contracts/)**.
