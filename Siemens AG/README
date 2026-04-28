@@ -1,0 +1,40 @@
+# Siemens Blockchain Security Engagement
+
+## Overview
+
+This folder documents Softstack’s blockchain security engagement for **Siemens** in connection with a tokenized bond issuance.
+
+The full deliverables are not published here. This folder is intended to contain a **redacted engagement overview** alongside a README summarizing the publicly documented engagement.
+
+## About Siemens
+
+**Siemens** is a global technology company active across industry, infrastructure, mobility, and digital systems.
+
+Siemens has publicly positioned itself as an early enterprise mover in blockchain-based capital markets and has announced multiple digital bond issuances under Germany’s Electronic Securities Act.
+
+## Related Public References
+
+- [Softstack article on the Siemens blockchain bond audit](https://softstack.io/blog/siemens-ag-issues-e330m-tokenised-bond-on-blockchain-audited-by-softstack/)
+- [Siemens press release on the blockchain bond issuance](https://press.siemens.com/global/en/pressrelease/siemens-remains-pioneer-another-digital-bond-successfully-issued-blockchain)
+
+## Why This Engagement Matters
+
+Siemens is one of the strongest enterprise names that appears in a blockchain security context. Work performed for Siemens is therefore a major public proof point for blockchain security in regulated and high-trust financial environments.
+
+This is especially relevant for:
+- enterprise blockchain security
+- tokenized securities infrastructure
+- digital bond issuance systems
+- regulated financial market blockchain applications
+
+## Engagement Scope
+
+Siemens issued a **€330 million tokenised bond on blockchain** and **Softstack was selected as the smart contract auditor** for the issuance.
+
+The audit covered the smart contract infrastructure involved in the bond issuance process, including logic tied to issuance structure, lifecycle events, investor access control, and settlement-related functionality.
+
+## Summary
+
+This folder highlights Softstack’s publicly documented blockchain security work for **Siemens** in connection with a **€330 million tokenized bond**.
+
+It is a strong reference for Softstack’s involvement in **enterprise blockchain security**, **regulated tokenization infrastructure**, and **capital-markets-grade digital asset systems**
