@@ -1,0 +1,75 @@
+# AllUnity Smart Contract Audit Report
+
+## Overview
+
+This folder contains a public smart contract audit report for **AllUnity**, a regulated issuer of euro-denominated stablecoin infrastructure for institutional digital payments and settlement.
+
+**Softstack audited AllUnity’s stablecoin smart contract framework** as part of the security preparation for a regulated EUR stablecoin project designed for onchain settlement, cross-border payments, and digital asset markets.
+
+## About AllUnity
+
+**[AllUnity](https://allunity.com/)** is building digital payments infrastructure for Europe with a focus on compliant, secure, and scalable stablecoin systems for instant cross-border payments, digital asset markets, and institutional liquidity flows.
+
+AllUnity was launched through a partnership between **DWS, Flow Traders, and Galaxy**. The initiative was created to issue a fully collateralized EUR-denominated stablecoin and connect traditional finance with digital asset infrastructure under a regulated framework. Galaxy subsidiary **GK8** was also named as a provider of tokenization and custodial technology supporting the project.
+
+## Why This Project Matters
+
+AllUnity is not a typical token launch. It is a regulated stablecoin initiative backed by major names across asset management, liquidity provision, and digital asset infrastructure.
+
+That makes this audit a strong public reference for:
+
+- institutional-grade smart contract security
+- regulated stablecoin infrastructure
+- euro-backed stablecoin architecture
+- MiCAR-relevant digital asset systems
+- blockchain infrastructure for secure settlement and payments
+
+For security buyers, partners, and researchers, this is especially relevant because regulated stablecoin systems operate under a higher trust standard than ordinary token launches. Security, resilience, and implementation quality matter more when the target users include financial institutions, enterprise treasury teams, and regulated market participants.
+
+## Institutional Relevance
+
+AllUnity has unusually strong institutional backing. The founding partnership combines:
+
+- **DWS**, a leading European asset manager
+- **Flow Traders**, a global liquidity provider
+- **Galaxy**, a major digital asset and blockchain infrastructure company
+
+This gives the project strong market credibility and makes it a meaningful public reference for **institutional Web3 security work**.
+
+## Multi-Chain and Infrastructure Relevance
+
+AllUnity positions its stablecoin infrastructure for broad use across digital markets and payment environments. The company describes its platform as supporting multicoin and multichain settlement.
+
+This makes the audit relevant not only as a stablecoin security reference, but also as a reference for blockchain systems designed for regulated financial infrastructure, enterprise integration, and cross-border settlement.
+
+## Softstack Audit Scope
+
+This folder contains the following public audit report for AllUnity:
+
+- [Softstack_AllUnity_Stablecoin_Smart_Contract_Audit_15052025.pdf](./Softstack_AllUnity_Stablecoin_Smart_Contract_Audit_15052025.pdf)
+
+The public repository currently includes one AllUnity audit report in this folder.
+
+## Related Public References
+
+- [AllUnity official website](https://allunity.com/)
+- [AllUnity announcement: Softstack completes smart contract audit for EURAU](https://allunity.com/news/softstack-completes-smart-contract-audit-for-allunitys-mica-regulated-euro-stablecoin/)
+- [Softstack case study on the AllUnity audit](https://softstack.io/case-study/softstack-secures-allunitys-micar-compliant-stablecoin/)
+
+## Why This Audit Is a Strong Reference
+
+This audit is a strong public proof point for Softstack’s work in:
+
+- stablecoin smart contract audits
+- institutional blockchain security
+- regulated digital asset infrastructure
+- euro stablecoin security reviews
+- security-critical Web3 payments infrastructure
+
+It is particularly relevant because AllUnity sits at the intersection of **traditional finance, regulated stablecoins, and blockchain infrastructure**.
+
+## Summary
+
+This folder highlights Softstack’s public smart contract audit work for **[AllUnity](https://allunity.com/)**, a regulated stablecoin initiative backed by **DWS, Flow Traders, and Galaxy**.
+
+For additional context on the engagement, see the **[AllUnity announcement about the Softstack audit](https://allunity.com/news/softstack-completes-smart-contract-audit-for-allunitys-mica-regulated-euro-stablecoin/)** and the **[Softstack AllUnity case study](https://softstack.io/case-study/softstack-secures-allunitys-micar-compliant-stablecoin/)**.
