@@ -1,0 +1,35 @@
+# Gravis Finance Smart Contract Audit Reports
+
+## Overview
+
+This folder contains historical public smart contract audit materials completed by Softstack for Gravis Finance.
+
+Gravis Finance is included in Softstack’s public audit archive as a DeFi and farming smart contract security reference.
+
+## Audit Information
+
+Project: Gravis Finance  
+Audit type: DeFi farm and protocol smart contract audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Reports
+
+[01_Certificate_Gravis_Farm.pdf](./01_Certificate_Gravis_Farm.pdf)
+
+[02_Smart Contract Audit_GravisFinance_Farm.pdf](./02_Smart%20Contract%20Audit_GravisFinance_Farm.pdf)
+
+[02_Smart Contract Audit_GravisFinance_GravisChef.pdf](./02_Smart%20Contract%20Audit_GravisFinance_GravisChef.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed DeFi smart contract security work for farming and chef style reward logic.
+
+## Summary
+
+This folder is a historical reference for Softstack’s smart contract audit work connected to DeFi farms, reward contracts and protocol infrastructure.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
