@@ -1,0 +1,31 @@
+# PDAX Mintoo NFT Framework Smart Contract Audit Report
+
+## Overview
+
+This folder contains a historical public smart contract audit report completed by Softstack for PDAX.
+
+PDAX is included in Softstack’s public audit archive as an NFT framework smart contract security reference connected to Mintoo.
+
+## Audit Information
+
+Project: PDAX  
+Audit type: NFT framework smart contract audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Report
+
+[Smart_Contract_Audit_Mintoo_NFT_Framework_04042023.pdf](./Smart_Contract_Audit_Mintoo_NFT_Framework_04042023.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed smart contract security work for NFT framework infrastructure.
+
+## Summary
+
+This folder is a historical reference for Softstack’s smart contract audit work connected to NFT infrastructure, framework contracts and consumer Web3 applications.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
