@@ -1,0 +1,31 @@
+# Velvet Capital Smart Contract Audit Report
+
+## Overview
+
+This folder contains historical public smart contract audit materials completed by Softstack for Velvet Capital.
+
+Velvet Capital is included in Softstack’s public audit archive as a DeFi and onchain asset management smart contract security reference.
+
+## Audit Information
+
+Project: Velvet Capital  
+Audit type: DeFi asset management smart contract audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Report
+
+[Softstack_Smart_Contract_Audit_Velvet_Capital.pdf](./Softstack_Smart_Contract_Audit_Velvet_Capital.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed smart contract security work for DeFi asset management and vault related infrastructure.
+
+## Summary
+
+This folder is a historical reference for Softstack’s smart contract audit work connected to DeFi asset management, vault systems and onchain investment infrastructure.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
