@@ -1,0 +1,31 @@
+# Loda Finance Architecture Audit Report
+
+## Overview
+
+This folder contains a historical public architecture audit report completed by Softstack for Loda Finance.
+
+Loda is included in Softstack’s public audit archive as a DeFi architecture and protocol security review reference.
+
+## Audit Information
+
+Project: Loda Finance  
+Audit type: Architecture audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Report
+
+[PUBLIC_02_Architecture_Audit_Loda_Finance.pdf](./PUBLIC_02_Architecture_Audit_Loda_Finance.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed architecture security review work for DeFi related infrastructure.
+
+## Summary
+
+This folder is a historical reference for Softstack’s security work connected to DeFi architecture review, protocol design assessment and blockchain application security.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
