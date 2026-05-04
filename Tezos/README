@@ -1,0 +1,39 @@
+# Tezos Development Engagement
+
+## Overview
+
+This folder documents Softstack’s development engagement for **Tezos** around **t:connect**, a Telegram Mini App SDK.
+
+This is not presented here as a smart contract audit. The public case study describes the work as a **TMA Software Development Kit** engagement focused on integrating Tezos and Etherlink functionality into Telegram mini apps.
+
+## About Tezos
+
+**Tezos** is a decentralized blockchain platform known for its focus on security, governance, and protocol evolution.
+
+The public case study also describes **Etherlink** as an EVM-compatible sidechain of Tezos that enables Ethereum-style functionality within the broader Tezos ecosystem.
+
+## Why This Engagement Matters
+
+This engagement is a strong public reference because it connects:
+- Tezos ecosystem infrastructure
+- Etherlink integration
+- Telegram mini apps
+- Web3 usability and wallet connectivity
+- mainstream distribution through messaging platforms
+
+The case study explicitly notes Telegram’s large user base and positions the SDK as a way to bring blockchain functionality into a widely used consumer platform.
+
+## Engagement Scope
+
+According to Softstack’s public case study, the client is **Tezos**, the project is **t:connect**, and the service is a **Telegram Mini App Software Development Kit**.
+
+The case study says the SDK enables Telegram mini apps to integrate Tezos and Etherlink functionality, including blockchain transactions, wallet interactions, and smart contract interactions.
+
+The case study also states that Softstack is running its own **baker node** on Tezos, which it describes as part of its active contribution to the Tezos ecosystem.
+
+
+## Summary
+
+This folder highlights Softstack’s public development work for **Tezos** through the **t:connect** Telegram Mini App SDK engagement.
+
+It is a strong reference for Softstack’s involvement in **Tezos ecosystem development**, **Etherlink integration**, and **Web3 infrastructure designed for mainstream messaging platforms**.
