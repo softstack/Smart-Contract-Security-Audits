@@ -1,0 +1,41 @@
+# HAL Privatbank Blockchain Securities Register Engagement
+
+## Overview
+
+This folder documents Softstack’s blockchain security engagement for **HAL Privatbank**, referring to **Hauck Aufhäuser Lampe Privatbank AG**, in connection with blockchain-based securities register infrastructure.
+
+The full deliverables are not published here. This folder is intended to contain a **redacted engagement overview** alongside a README summarizing the publicly documented engagement.
+
+## About HAL Privatbank
+
+**Hauck Aufhäuser Lampe Privatbank AG** is a German private bank active in digital assets and crypto securities infrastructure.
+
+HAL Privatbank publicly states that it offers crypto securities register management and describes itself as one of the first providers in the market to receive permission to register crypto securities and crypto fund shares. The bank also presents its offering as a one-stop-shop covering issuance, custody, register management, and related servicing under the German Electronic Securities Act.
+
+## Related Public References
+
+- [HAL Privatbank article on blockchain bond custody infrastructure](https://www.hal-privatbank.com/en/news/2024/hauck-aufhaeuser-digital-custody-supports-kfw-in-blockchain-bond-issuance-of-100-million-euros-as-crypto-custodian)
+- [Softstack article on the HAL Privatbank blockchain securities register audit](https://softstack.io/blog/hal-bank-launches-blockchain-securities-register-audited-by-softstack/)
+
+## Why This Engagement Matters
+
+This is a strong public reference because it relates to regulated financial market infrastructure rather than a typical crypto-native application.
+
+This is especially relevant for:
+- blockchain securities register security
+- tokenized securities infrastructure
+- eWpG-related blockchain systems
+- regulated financial market blockchain applications
+
+## Engagement Scope
+
+HAL Privatbank launched a blockchain securities register and **Softstack was selected as smart contract auditor** for this tokenized securities infrastructure.
+
+Public articles frame the work around the secure launch of the blockchain-based register and the smart contract layer supporting the infrastructure.
+
+
+## Summary
+
+This folder highlights Softstack’s publicly documented blockchain security work for **HAL Privatbank** in connection with blockchain-based securities register infrastructure.
+
+It is a strong reference for Softstack’s involvement in **regulated tokenization systems**, **blockchain register infrastructure**, and **security-critical financial market implementations under the eWpG framework**.
