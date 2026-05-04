@@ -1,0 +1,63 @@
+# DMD Smart Contract Audit Report
+
+## Overview
+
+This folder contains a public smart contract audit report for **DMD Diamond**, a long-running blockchain project that has evolved into an EVM-compatible Layer 1.
+
+Softstack audited DMD's core smart contracts as part of the project's transition into a more advanced smart contract and Layer 1 infrastructure stack. This makes the folder a strong public reference for security work tied to blockchain protocol evolution, EVM compatibility, and core onchain infrastructure.
+
+## About DMD
+
+**DMD Diamond** is one of the older blockchain projects in the market, with origins dating back to 2013. The project presents itself today as a fully EVM-compatible Layer 1 focused on decentralization, security, and smart contract support.
+
+DMD positions its current network as combining EVM functionality with its own blockchain design and consensus architecture, making it relevant as more than a simple token or single-purpose dApp project.
+
+## Why This Project Matters
+
+DMD is significant because it is not just an application deployed on another chain. It is a blockchain project rebuilding and upgrading its own network infrastructure.
+
+That makes this audit a strong public reference for:
+
+- Layer 1 and blockchain infrastructure security
+- core smart contract audit work
+- EVM-compatible protocol security
+- blockchain migration and upgrade security
+- security reviews for foundational protocol components
+
+For buyers, partners, and technical teams, this is important because auditing core protocol or ecosystem contracts for a Layer 1 environment usually carries a higher level of architectural responsibility than auditing a basic standalone token.
+
+## Project Relevance and Market Context
+
+Public DMD materials describe the project as one of the older running blockchain ecosystems and position the current network as a fully EVM-compatible Layer 1. Public market data also shows DMD as a live traded asset with a market capitalization in the low single-digit millions of USD, which confirms that this is an actively traded blockchain ecosystem rather than an abandoned legacy project.
+
+The strongest public value here is not headline TVL, but the fact that DMD represents blockchain infrastructure, ecosystem migration, and protocol-level evolution.
+
+## Softstack Audit Scope
+
+This folder contains the following public report:
+
+- [Softstack_DMD_Core_Smart_Contract_Audit_211125.pdf](./Softstack_DMD_Core_Smart_Contract_Audit_211125.pdf)
+
+The file name indicates a **core smart contract audit**, which makes this a particularly strong proof point for security work on foundational blockchain components rather than peripheral integrations.
+
+## Related Public References
+
+- [DMD Diamond official website](https://diamonddmd.com/)
+- [Softstack case study on the DMD Diamond audit](https://softstack.io/case-study/softstack-audited-dmd-diamonds/)
+
+## Why This Folder Is Valuable
+
+This folder is a useful public reference for anyone looking for:
+
+- DMD audit report
+- Softstack smart contract audits
+- Layer 1 blockchain security audit examples
+- EVM-compatible blockchain audit references
+- core smart contract security reviews
+- blockchain upgrade and migration security work
+
+## Summary
+
+This folder highlights Softstack's public smart contract audit work for **DMD Diamond**, a long-running blockchain project that has relaunched as an EVM-compatible Layer 1.
+
+It is a strong public reference for Softstack's ability to support **core smart contract security**, **blockchain infrastructure audits**, and **security-critical protocol evolution work**.
