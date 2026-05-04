@@ -1,0 +1,19 @@
+# 20Min.fr Smart Contract Audit Report
+## Overview
+This folder contains a historical public smart contract audit report
+completed by Softstack for 20Min.fr and Capsule Corp Labs.
+## Audit Information
+Project: 20Min.fr
+Audit type: Smart contract audit
+Repository category: Historical public audit archive
+Public report: Available in this folder
+Project status: Public activity may have changed after audit completion
+## Public Audit Report
+[02_Smart_Contract_Audit_CapsuleCorpLabs_20Min.pdf](./
+02_Smart_Contract_Audit_CapsuleCorpLabs_20Min.pdf)
+## Summary
+This report is preserved as part of Softstack’s public audit archive. It
+provides historical proof of completed smart contract security work and
+should be read as an archive reference rather than a current project
+endorsement.
+Learn more about Softstack smart contract audits: https://softstack.io/smartcontract-audit/
