@@ -1,0 +1,51 @@
+# Oiler Smart Contract Audit Reports
+
+## Overview
+
+This folder contains historical public smart contract audit materials completed by Softstack for Oiler.
+
+Oiler is included in Softstack’s public audit archive as a DeFi, token, staking, vesting and LBP smart contract security reference.
+
+## Audit Information
+
+Project: Oiler  
+Audit type: Token, staking, vesting and LBP smart contract audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Reports
+
+[01_Certificate_Oiler_LBP.pdf](./01_Certificate_Oiler_LBP.pdf)
+
+[01_Certificate_Oiler_Staking.pdf](./01_Certificate_Oiler_Staking.pdf)
+
+[01_Certificate_Oiler_Token.pdf](./01_Certificate_Oiler_Token.pdf)
+
+[01_Certificate_Oiler_Vesting.pdf](./01_Certificate_Oiler_Vesting.pdf)
+
+[02_Smart Contract Audit_LBP_Oiler.pdf](./02_Smart%20Contract%20Audit_LBP_Oiler.pdf)
+
+[02_Smart Contract Audit_Staking_Oiler.pdf](./02_Smart%20Contract%20Audit_Staking_Oiler.pdf)
+
+[02_Smart Contract Audit_Vesting_Oiler.pdf](./02_Smart%20Contract%20Audit_Vesting_Oiler.pdf)
+
+## Additional Files
+
+[oiler-lbp-contracts-audit.zip](./oiler-lbp-contracts-audit.zip)
+
+[oiler-staking-contracts-master.zip](./oiler-staking-contracts-master.zip)
+
+[oiler-vesting-token-audit.zip](./oiler-vesting-token-audit.zip)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed smart contract security work across token, staking, vesting and LBP related contract systems.
+
+## Summary
+
+This folder is a historical reference for Softstack’s smart contract audit work connected to DeFi infrastructure, token systems, staking logic, vesting mechanics and LBP contracts.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
