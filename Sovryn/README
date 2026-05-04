@@ -1,0 +1,33 @@
+# Sovryn Smart Contract Audit Reports
+
+## Overview
+
+This folder contains historical public smart contract audit reports completed by Softstack for Sovryn.
+
+Sovryn is included in Softstack’s public audit archive as a DeFi protocol smart contract security reference covering Zero Protocol and Sovryn Origins related systems.
+
+## Audit Information
+
+Project: Sovryn  
+Audit type: DeFi protocol smart contract audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Reports
+
+[02_Smart Contract Audit_ Zero_Protocol.pdf](./02_Smart%20Contract%20Audit_%20Zero_Protocol.pdf)
+
+[02_Smart Contract Audit_Sovryn_Origins.pdf](./02_Smart%20Contract%20Audit_Sovryn_Origins.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed DeFi smart contract security work for protocol infrastructure and application logic.
+
+## Summary
+
+This folder is a historical reference for Softstack’s smart contract audit work connected to DeFi protocols, Bitcoin aligned DeFi infrastructure and security critical financial smart contract systems.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/

@@ -1,30 +1,32 @@
-# LightLink Architecture and Codebase Audit Report
+# GAIA Smart Contract Audit Reports
 
 ## Overview
 
-This folder contains a historical public architecture and codebase audit report completed by Softstack for LightLink.
+This folder contains historical public smart contract audit reports completed by Softstack for GAIA and Ever Land related contracts.
 
-LightLink is included in Softstack’s public audit archive as a blockchain infrastructure and architecture security reference.
+GAIA is included in Softstack’s public audit archive as a smart contract security reference connected to Web3 application and ecosystem infrastructure.
 
 ## Audit Information
 
-Project: LightLink  
-Audit type: Architecture and codebase audit  
+Project: GAIA  
+Audit type: Smart contract audit  
 Repository category: Historical public audit archive  
 Public report status: Available in this folder  
 Project status: Public activity may have changed after audit completion  
 
-## Public Audit Report
+## Public Audit Reports
 
-[Architecture_Codebase_Audit_LightLink_18022023.pdf](./Architecture_Codebase_Audit_LightLink_18022023.pdf)
+[02_Smart_Contract_Audit_Ever_Land.pdf](./02_Smart_Contract_Audit_Ever_Land.pdf)
+
+[02_Smart_Contract_Audit_GAIA.pdf](./02_Smart_Contract_Audit_GAIA.pdf)
 
 ## Why This Folder Exists
 
-This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed architecture and codebase security review work for blockchain infrastructure.
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed smart contract security work across GAIA and related contract systems.
 
 ## Summary
 
-This folder is a historical reference for Softstack’s security work connected to architecture review, codebase assessment and blockchain infrastructure security.
+This folder is a historical reference for Softstack’s smart contract audit work connected to Web3 application infrastructure and ecosystem smart contracts.
 
 Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
 

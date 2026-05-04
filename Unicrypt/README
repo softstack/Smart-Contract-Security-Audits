@@ -1,0 +1,79 @@
+# Unicrypt Smart Contract Audit Reports
+
+## Overview
+
+This folder contains multiple public smart contract audit reports and audit certificates for **Unicrypt**, a long-standing DeFi infrastructure project focused on token launches, liquidity locking, vesting, presales, and related tooling.
+
+Softstack completed **multiple separate security engagements for Unicrypt** across several modules and contract systems. This is a strong public example of a **recurring audit relationship** rather than a one-off review.
+
+## About Unicrypt
+
+**Unicrypt** is a DeFi infrastructure platform best known for helping projects with liquidity locking, token vesting, launch tooling, presales, and related token lifecycle infrastructure.
+
+That makes Unicrypt relevant not just as a single protocol, but as a broader tooling layer used by many projects launching and managing token-related smart contracts.
+
+## Why This Project Matters
+
+Unicrypt is a strong public reference because its products sit close to the core operational needs of many token launches and DeFi ecosystems.
+
+This folder is especially valuable as a proof point for:
+
+- liquidity locking smart contract audits
+- token vesting security reviews
+- presale contract audits
+- farm and incentive smart contract security
+- recurring security work across evolving infrastructure modules
+
+For buyers and researchers, this is one of the strongest folders in the repository from a recurring-audit perspective because it clearly shows multiple public reports across multiple product areas and versions.
+
+## Recurring Audit Relationship
+
+This folder contains multiple public audit reports and certificates covering different Unicrypt products, including:
+
+- Locker Solana
+- Farm
+- Locking V2
+- Presale
+- LP Locking V3
+- Token Vesting
+
+That breadth makes this a strong public signal of ongoing security collaboration across multiple protocol modules rather than a single isolated engagement.
+
+## Softstack Audit Coverage
+
+### Certificates
+- [01_Certificate_Unicrypt.pdf](./01_Certificate_Unicrypt.pdf)
+- [01_Certificate_Unicrypt_Locking_V2.pdf](./01_Certificate_Unicrypt_Locking_V2.pdf)
+- [01_Certificate_Unicrypt_Presale.pdf](./01_Certificate_Unicrypt_Presale.pdf)
+- [01_Certificate_Unicrypt_TokenVesting.pdf](./01_Certificate_Unicrypt_TokenVesting.pdf)
+
+### Audit Reports
+- [02_Program_Audit_Unicrypt_Locker_Solana.pdf](./02_Program_Audit_Unicrypt_Locker_Solana.pdf)
+- [02_Smart Contract Audit Unicrypt_Farm.pdf](./02_Smart%20Contract%20Audit%20Unicrypt_Farm.pdf)
+- [02_Smart Contract Audit Unicrypt_Locking_V2.pdf](./02_Smart%20Contract%20Audit%20Unicrypt_Locking_V2.pdf)
+- [02_Smart Contract Audit Unicrypt_Presale.pdf](./02_Smart%20Contract%20Audit%20Unicrypt_Presale.pdf)
+- [02_Smart Contract Audit_Unicrypt_LP_Locking_v3.pdf](./02_Smart%20Contract%20Audit_Unicrypt_LP_Locking_v3.pdf)
+- [02_Smart Contract Audit_Unicrypt_TokenVesting.pdf](./02_Smart%20Contract%20Audit_Unicrypt_TokenVesting.pdf)
+
+## Related Public References
+
+- [UNCX official website](https://www.uncx.network/)
+- [Softstack official website](https://softstack.io/)
+
+
+## Why This Folder Is Valuable
+
+This folder is useful as a public reference for anyone looking for:
+
+- Unicrypt audit reports
+- liquidity locking smart contract audits
+- token vesting and presale security reviews
+- Solana locker audit examples
+- recurring DeFi infrastructure audit engagements
+- Softstack smart contract audits
+
+## Summary
+
+This folder highlights Softstack's public smart contract audit work for **Unicrypt**, a DeFi infrastructure provider focused on token launch and lifecycle tooling.
+
+With multiple public audit reports across locking, vesting, presale, farm, and Solana locker modules, this folder is a strong public proof point for Softstack's ability to support **recurring security engagements**, **token infrastructure audits**, and **multi-module DeFi security work**.

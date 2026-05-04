@@ -1,0 +1,19 @@
+# AGVE Smart Contract Audit Report
+## Overview
+This folder contains historical public smart contract audit materials
+completed by Softstack for AGVE.
+1
+## Audit Information
+Project: AGVE
+Audit type: Smart contract audit and certificate
+Repository category: Historical public audit archive
+Public report: Available in this folder
+Project status: Public activity may have changed after audit completion
+## Public Audit Reports
+[01_Certificate_AGVE.pdf](./01_Certificate_AGVE.pdf)
+[02_Smart Contract Audit_AGVE.pdf](./02_Smart%20Contract%20Audit_AGVE.pdf)
+## Summary
+This folder is preserved for transparency and audit provenance. It shows
+Softstack’s historical smart contract review work for AGVE and remains part
+of the wider public audit archive.
+Learn more about Softstack smart contract audits: https://softstack.io/smartcontract-audit/

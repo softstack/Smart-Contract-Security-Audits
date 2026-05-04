@@ -1,0 +1,61 @@
+# TON Smart Contract Audit Report
+
+## Overview
+
+This folder contains a public smart contract audit report for **TON**, one of the most important blockchain ecosystems connected to Telegram and one of the strongest distribution channels in Web3.
+
+Softstack audited **TON Multisig** smart contract infrastructure, providing security review support for a core component within a blockchain ecosystem built for high scale, fast onboarding, and broad user reach.
+
+## About TON
+
+**TON**, short for **The Open Network**, is a Layer 1 blockchain closely tied to the Telegram ecosystem. TON is designed to support scalable onchain infrastructure, payments, wallets, mini apps, and broader Web3 experiences integrated with Telegram.
+
+TON is especially important because it gives builders access to one of the largest distribution surfaces in crypto through Telegram. The ecosystem is positioned around instant onboarding, large-scale consumer reach, and user-friendly blockchain applications.
+
+## Why This Project Matters
+
+TON is not a niche blockchain. It is one of the most visible and strategically important ecosystems in crypto because of its relationship with Telegram and its consumer-scale distribution potential.
+
+That makes this audit a strong public reference for:
+
+- Layer 1 blockchain security
+- TON smart contract audits
+- multisig smart contract security
+- blockchain infrastructure security
+- security work connected to one of the largest consumer ecosystems in Web3
+
+For buyers, partners, and researchers, TON is a particularly strong proof point because of its scale, visibility, and importance as Telegram's blockchain infrastructure layer.
+
+## Ecosystem Relevance
+
+TON has positioned itself around access to Telegram's massive user base and is publicly framed as infrastructure for builders targeting large-scale adoption. Public TON materials describe the ecosystem as a way for builders to reach more than 1 billion Telegram users, while Telegram and TON have also announced deeper ecosystem alignment around tokenization, payments, and mini app integrations.
+
+This makes TON one of the strongest public social proof references in the repository.
+
+## Softstack Audit Scope
+
+This folder contains the following public report:
+
+- [Smart_Contract_Audit_TON_Multisig_18022023.pdf](./Smart_Contract_Audit_TON_Multisig_18022023.pdf)
+
+The file name indicates a security review of **TON Multisig**, which is a strong public reference for infrastructure-level smart contract auditing within the TON ecosystem.
+
+## Related Public References
+https://github.com/softstack/Smart-Contract-Security-Audits/blob/master/TON/Smart_Contract_Audit_TON_Multisig_18022023.pdf
+
+## Why This Folder Is Valuable
+
+This folder is useful as a public reference for anyone looking for:
+
+- TON audit report
+- TON multisig smart contract audit
+- Softstack smart contract audits
+- Layer 1 blockchain security review examples
+- Telegram ecosystem blockchain security
+- infrastructure smart contract audit references
+
+## Summary
+
+This folder highlights Softstack's public smart contract audit work for **TON**, one of the most important blockchain ecosystems in crypto and the leading blockchain environment connected to Telegram.
+
+It is a strong public reference for Softstack's ability to support **Layer 1 infrastructure security**, **multisig smart contract auditing**, and **security-critical blockchain systems built for mass adoption**.

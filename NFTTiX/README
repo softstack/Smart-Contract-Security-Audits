@@ -1,0 +1,35 @@
+# NFTTiX Smart Contract Audit Reports
+
+## Overview
+
+This folder contains historical public smart contract audit reports completed by Softstack for NFTTiX.
+
+NFTTiX is included in Softstack’s public audit archive as an NFT ticketing, event factory and marketplace smart contract security reference.
+
+## Audit Information
+
+Project: NFTTiX  
+Audit type: NFT ticketing, event factory and marketplace smart contract audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Reports
+
+[02_Smart_Contract_Audit_NFTTiX_EventFactory.pdf](./02_Smart_Contract_Audit_NFTTiX_EventFactory.pdf)
+
+[02_Smart_Contract_Audit_NFTTiX_Marketplace.pdf](./02_Smart_Contract_Audit_NFTTiX_Marketplace.pdf)
+
+[Smart_Contract_Audit_NFTTiX_EventFactory_v2_07022023.pdf](./Smart_Contract_Audit_NFTTiX_EventFactory_v2_07022023.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed smart contract security work for NFT ticketing, event creation and marketplace related contract systems.
+
+## Summary
+
+This folder is a historical reference for Softstack’s smart contract audit work connected to NFT ticketing infrastructure, event factory contracts and marketplace security.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/

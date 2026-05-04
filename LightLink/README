@@ -1,0 +1,31 @@
+# LightLink Architecture and Codebase Audit Report
+
+## Overview
+
+This folder contains a historical public architecture and codebase audit report completed by Softstack for LightLink.
+
+LightLink is included in Softstack’s public audit archive as a blockchain infrastructure and architecture security reference.
+
+## Audit Information
+
+Project: LightLink  
+Audit type: Architecture and codebase audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Report
+
+[Architecture_Codebase_Audit_LightLink_18022023.pdf](./Architecture_Codebase_Audit_LightLink_18022023.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed architecture and codebase security review work for blockchain infrastructure.
+
+## Summary
+
+This folder is a historical reference for Softstack’s security work connected to architecture review, codebase assessment and blockchain infrastructure security.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/

@@ -1,0 +1,80 @@
+# Syndicate Smart Contract Audit Reports
+
+## Overview
+
+This folder contains multiple public smart contract audit reports for **Syndicate**, an appchain infrastructure project focused on programmable onchain sequencers and custom blockchain networks.
+
+Softstack completed **multiple separate security engagements for Syndicate** across several parts of the protocol, including token infrastructure, core protocol architecture, smart wallets, staking emissions, and earlier protocol modules.
+
+This is a strong public example of a **recurring audit relationship** rather than a one-off engagement.
+
+## About Syndicate
+
+**Syndicate** is infrastructure for building and scaling appchains with programmable onchain sequencers. The protocol is designed to help developers launch custom blockchain networks tailored to specific applications and ecosystems.
+
+That makes Syndicate relevant to one of the most important infrastructure trends in Web3: moving from generic smart contract deployments toward more specialized, application-specific chains and community-owned network infrastructure.
+
+## Why This Project Matters
+
+Syndicate is important because it is not just a single dApp or token launch. It is infrastructure for network creation, sequencing, staking, emissions, and appchain growth.
+
+That makes this folder a strong public reference for:
+
+- blockchain infrastructure security
+- appchain and sequencing-related smart contract audits
+- token and staking contract security
+- smart wallet audits
+- recurring security work across evolving protocol modules
+
+For buyers, partners, and researchers, repeat audit work across so many separate modules is a meaningful trust signal and one of the strongest patterns visible in the public repository.
+
+## Recurring Audit Relationship
+
+This folder shows **multiple public audit reports across multiple dates and protocol areas**, including:
+
+- Protocol V2
+- ERC721M
+- SmartWallets
+- Syndicate Token
+- Core Smart Contracts
+- Staking Emissions
+
+This is exactly the kind of public audit history that signals an ongoing security relationship rather than a single isolated engagement.
+
+## Softstack Audit Coverage
+
+### Public reports in this folder
+
+- [02_Smart_Contract_Audit_Syndicate_ProtocolV2.pdf](./02_Smart_Contract_Audit_Syndicate_ProtocolV2.pdf)
+- [Smart_Contract_Audit_Syndicate_ERC721M_05102023.pdf](./Smart_Contract_Audit_Syndicate_ERC721M_05102023.pdf)
+- [Smart_Contract_Audit_Syndicate_ERC721M_11092023.pdf](./Smart_Contract_Audit_Syndicate_ERC721M_11092023.pdf)
+- [Smart_Contract_Audit_Syndicate_SmartWallets_08112023.pdf](./Smart_Contract_Audit_Syndicate_SmartWallets_08112023.pdf)
+- [Smart_Contract_Audit_Syndicate_SmartWallets_13112023.pdf](./Smart_Contract_Audit_Syndicate_SmartWallets_13112023.pdf)
+- [Softstack_Syndicate_Token_Smart_Contract_Audit_09072025.pdf](./Softstack_Syndicate_Token_Smart_Contract_Audit_09072025.pdf)
+- [Softstack_Syndicate_Core_Smart_Contract_Audit_25072025.pdf](./Softstack_Syndicate_Core_Smart_Contract_Audit_25072025.pdf)
+- [Softstack_Syndicate_Staking_Emissions_Smart_Contract_Audit_16092025.pdf](./Softstack_Syndicate_Staking_Emissions_Smart_Contract_Audit_16092025.pdf)
+- [Softstack_Syndicate_Staking_Emissions_Smart_Contract_Audit_01122025.pdf](./Softstack_Syndicate_Staking_Emissions_Smart_Contract_Audit_01122025.pdf)
+
+## Related Public References
+
+- [Softstack case study: Softstack completes audits for Syndicate](https://softstack.io/case-study/softstack-completes-audits-for-syndicate/)
+- [Softstack case study: Syndicate smart contract audit](https://softstack.io/case-study/syndicate-smart-contract-audit/)
+- https://syndicate.io/
+
+## Why This Folder Is Valuable
+
+This folder is useful as a public reference for anyone looking for:
+
+- Syndicate audit reports
+- appchain infrastructure security reviews
+- programmable sequencer smart contract audits
+- staking and emissions contract audits
+- smart wallet audit examples
+- recurring protocol security engagements
+- Softstack blockchain infrastructure audits
+
+## Summary
+
+This folder highlights Softstack's public smart contract audit work for **Syndicate**, an appchain infrastructure project building programmable onchain sequencing and network tooling.
+
+With multiple public reports spanning token, core, wallet, protocol, and staking modules, this folder is a strong public proof point for Softstack's ability to support **complex blockchain infrastructure**, **recurring security engagements**, and **security-critical protocol evolution over time**.

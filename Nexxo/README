@@ -1,0 +1,45 @@
+# Nexxo Smart Contract Audit Reports
+
+## Overview
+
+This folder contains historical public smart contract audit materials completed by Softstack for Nexxo.
+
+Nexxo is included in Softstack’s public audit archive as a token smart contract security reference. The folder contains separate historical materials from 2019 and 2020.
+
+## Audit Information
+
+Project: Nexxo  
+Audit type: Token smart contract audit and certificate  
+Repository category: Historical public audit archive  
+Public report status: Available in nested folders  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Reports
+
+### 2019
+
+[01_Certificate_Nexxo.pdf](./2019/01_Certificate_Nexxo.pdf)
+
+[02_Smart Contract Audit Nexxo.pdf](./2019/02_Smart%20Contract%20Audit%20Nexxo.pdf)
+
+[Nexxo_contract_solidity_05__0_5_3.sol](./2019/Nexxo_contract_solidity_05__0_5_3.sol)
+
+### 2020
+
+[01_Certificate_Nexxo.pdf](./2020/01_Certificate_Nexxo.pdf)
+
+[02_Smart Contract Audit Nexxo.pdf](./2020/02_Smart%20Contract%20Audit%20Nexxo.pdf)
+
+[Sca2t-NexxoToken_result.html](./2020/Sca2t-NexxoToken_result.html)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed token smart contract security work across multiple review periods.
+
+## Summary
+
+This folder is a historical reference for Softstack’s token smart contract audit work and recurring audit documentation for Nexxo.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
