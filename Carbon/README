@@ -1,0 +1,31 @@
+# Carbon Token Smart Contract Audit Report
+
+## Overview
+
+This folder contains a historical public smart contract audit report completed by Softstack for Carbon.
+
+Carbon is included in Softstack’s public audit archive as a historical token smart contract security reference.
+
+## Audit Information
+
+Project: Carbon  
+Audit type: Token smart contract audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Report
+
+[Smart_Contract_Audit_Carbon_Token_05012023.pdf](./Smart_Contract_Audit_Carbon_Token_05012023.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed token smart contract security work.
+
+## Summary
+
+This folder is a historical reference for Softstack’s token smart contract audit work.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
