@@ -1,0 +1,43 @@
+# Team Finance Smart Contract Audit Reports
+
+## Overview
+
+This folder contains historical public smart contract audit materials completed by Softstack for Team Finance.
+
+Team Finance is included in Softstack’s public audit archive as a token infrastructure and lock contract security reference.
+
+## Audit Information
+
+Project: Team Finance  
+Audit type: Token lock and smart contract audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Reports
+
+[01_Certificate_Team_Finance.pdf](./01_Certificate_Team_Finance.pdf)
+
+[02_Smart Contract Audit Team Finance.pdf](./02_Smart%20Contract%20Audit%20Team%20Finance.pdf)
+
+[597f05f1e900c6647a97fb01.pdf](./597f05f1e900c6647a97fb01.pdf)
+
+## Additional Files
+
+[artifacts](./artifacts)
+
+[dependencies_20201013130446.html](./dependencies_20201013130446.html)
+
+[team_finance_lockContract.sol](./team_finance_lockContract.sol)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed smart contract security work for token lock infrastructure and related contract systems.
+
+## Summary
+
+This folder is a historical reference for Softstack’s smart contract audit work connected to token infrastructure, lock contracts and DeFi security.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
