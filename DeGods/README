@@ -1,0 +1,45 @@
+# DeGods and Dust Labs Security Audit Reports
+
+## Overview
+
+This folder contains historical public audit reports completed by Softstack for DeGods, Dust Labs, y00ts and related protocol components.
+
+DeGods is one of the more recognizable names in the NFT and consumer Web3 ecosystem. This folder is a useful historical reference for Softstack’s security work across NFT infrastructure, staking, bridge related systems, Solana programs and cross chain components.
+
+## Audit Information
+
+Project: DeGods and Dust Labs  
+Audit type: NFT, staking, bridge, Solana program and cross chain security assessment  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Reports
+
+[DustLabs_DeBridge_Security_Assessment_25032023.pdf](./DustLabs_DeBridge_Security_Assessment_25032023.pdf)
+
+[DustLabs_Smart_Contract_Audit_Point_Staking_22032023.pdf](./DustLabs_Smart_Contract_Audit_Point_Staking_22032023.pdf)
+
+[DustLabs_Smart_Contract_Audit_Point_Staking_v2_20042023.pdf](./DustLabs_Smart_Contract_Audit_Point_Staking_v2_20042023.pdf)
+
+[DustLabs_xchain_Security_Assessment_17032023.pdf](./DustLabs_xchain_Security_Assessment_17032023.pdf)
+
+[Program_Audit_DUST_Protocol.pdf](./Program_Audit_DUST_Protocol.pdf)
+
+[Smart_Contract_Audit_DeGods_S3_PrizeVault_08082023.pdf](./Smart_Contract_Audit_DeGods_S3_PrizeVault_08082023.pdf)
+
+[Smart_Contract_Audit_y00ts_Bridge_09102023.pdf](./Smart_Contract_Audit_y00ts_Bridge_09102023.pdf)
+
+[Solana_Program_Security_Assessment_Dustie_Protocol_30012023.pdf](./Solana_Program_Security_Assessment_Dustie_Protocol_30012023.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed security work for a high visibility NFT ecosystem and related infrastructure modules.
+
+## Summary
+
+This folder is a historical reference for Softstack’s security work across NFT infrastructure, staking contracts, Solana programs, bridge components and cross chain systems.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
