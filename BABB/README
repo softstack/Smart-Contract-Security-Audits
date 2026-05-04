@@ -1,0 +1,33 @@
+# BABB Smart Contract Audit Report
+
+## Overview
+
+This folder contains historical public smart contract audit materials completed by Softstack for BABB.
+
+BABB is included in Softstack’s public audit archive as a historical token smart contract security reference.
+
+## Audit Information
+
+Project: BABB  
+Audit type: Token smart contract audit and certificate  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Reports
+
+[01_Certificate_BABB_BAX_ETH.pdf](./01_Certificate_BABB_BAX_ETH.pdf)
+
+[02_Smart_Contract_Audit_BABB_Token.pdf](./02_Smart_Contract_Audit_BABB_Token.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed token smart contract security work.
+
+## Summary
+
+This folder is a historical reference for Softstack’s smart contract audit work connected to token contract security.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
