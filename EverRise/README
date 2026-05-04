@@ -1,0 +1,31 @@
+# EverRise Token and Staking Smart Contract Audit Report
+
+## Overview
+
+This folder contains historical public smart contract audit materials completed by Softstack for EverRise.
+
+EverRise is included in Softstack’s public audit archive as a token and staking smart contract security reference.
+
+## Audit Information
+
+Project: EverRise  
+Audit type: Token and staking smart contract audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Report
+
+[02_Smart_Contract_Audit_EverRise_Token_Staking_v3.pdf](./02_Smart_Contract_Audit_EverRise_Token_Staking_v3.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed smart contract security work for token and staking related contract systems.
+
+## Summary
+
+This folder is a historical reference for Softstack’s smart contract audit work connected to token infrastructure, staking logic and Web3 protocol security.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
