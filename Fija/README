@@ -1,0 +1,66 @@
+# Fija Smart Contract Audit Report
+
+## Overview
+
+This folder contains a public smart contract audit report for **Fija**, a crypto earn and yield infrastructure company focused on compliant, transparent access to DeFi strategies.
+
+Softstack audited Fija's smart contract infrastructure as part of a security engagement tied to a platform designed to make DeFi yield products easier to access for users, platforms, and institutional partners.
+
+## About Fija
+
+**Fija** is a fintech and DeFi infrastructure company building compliant, transparent, and easy-to-use crypto earn products. The platform is designed to help users and partners access curated yield strategies without the usual operational complexity of DeFi.
+
+Fija positions itself around regulated, user-friendly access to onchain yield and tokenized DeFi strategies, making it relevant to both crypto-native platforms and more traditional financial distribution channels.
+
+## Why This Project Matters
+
+Fija is important because it sits at the intersection of:
+
+- DeFi yield infrastructure
+- tokenized strategy distribution
+- compliance-focused crypto products
+- embedded crypto earn experiences
+- institutional and platform-facing onchain finance
+
+That makes this audit a strong public reference for Softstack's work on smart contracts supporting financial products that need to balance usability, yield generation, and trust.
+
+## Keyrock Acquisition
+
+Fija has been **acquired by Keyrock**, one of the better-known digital asset market makers and onchain infrastructure firms.
+
+That matters because it materially strengthens the significance of this audit as a public reference. What began as security work for an ambitious DeFi yield platform now also serves as a proof point connected to the broader Keyrock ecosystem and its expanding onchain product stack.
+
+This adds stronger institutional and strategic relevance to the engagement and makes the folder a more compelling public example of security work for infrastructure that has gone on to become part of a larger, established digital asset company.
+
+## Softstack Audit Scope
+
+This folder contains public smart contract audit reports for Fija.
+
+https://github.com/softstack/Smart-Contract-Security-Audits/blob/master/Fija/Softstack_Smart_Contract_Audit_Fija_Finance_Aave_Optimiser_16012025.pdf
+
+https://github.com/softstack/Smart-Contract-Security-Audits/blob/master/Fija/Softstack_Smart_Contract_Audit_Fija_Protocol_21072024.pdf
+
+If you want, I can tighten this line once you send the exact filename or a screenshot of the folder contents.
+
+## Related Public References
+
+- [FIJA official website](https://fija.finance/)
+- [Softstack case study on the FIJA audit](https://softstack.io/case-study/fijas-smart-contracts-audited-secured/)
+- [Keyrock acquisition announcement for FIJA](https://keyrock.com/keyrock-acquires-fija/)
+
+## Why These Folders Are Valuable
+
+This folder is a useful public reference for anyone looking for:
+
+- Fija audit report
+- Softstack smart contract audits
+- DeFi yield infrastructure security reviews
+- crypto earn product audit examples
+- tokenized strategy platform security
+- compliance-oriented Web3 financial infrastructure audits
+
+## Summary
+
+This folder highlights Softstack's public smart contract audit work for **Fija**, a DeFi yield infrastructure company that has since been **acquired by Keyrock**.
+
+It is a strong public reference for Softstack's ability to support security-critical smart contract systems tied to modern onchain financial products, especially where compliance, usability, and platform integration matter.
