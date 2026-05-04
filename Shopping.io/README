@@ -1,0 +1,67 @@
+# Shopping.io Smart Contract Audit Reports
+
+## Overview
+
+This folder contains historical public smart contract audit materials completed by Softstack for Shopping.io.
+
+Shopping.io is included in Softstack’s public audit archive as a token, staking, exchange and club smart contract security reference.
+
+## Audit Information
+
+Project: Shopping.io  
+Audit type: Token, staking, exchange and club smart contract audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Reports
+
+[01_Certificate_GSPI_Staking.pdf](./01_Certificate_GSPI_Staking.pdf)
+
+[01_Certificate_GSPI_Token.pdf](./01_Certificate_GSPI_Token.pdf)
+
+[01_Certificate_SPI_Staking.pdf](./01_Certificate_SPI_Staking.pdf)
+
+[01_Certificate_SPI_Token.pdf](./01_Certificate_SPI_Token.pdf)
+
+[01_Certificate_SPI_v2_Staking.pdf](./01_Certificate_SPI_v2_Staking.pdf)
+
+[01_Certificate_Shopping_GSPI_Club.pdf](./01_Certificate_Shopping_GSPI_Club.pdf)
+
+[02_Smart Contract Audit Shopping_GSPI_Club.pdf](./02_Smart%20Contract%20Audit%20Shopping_GSPI_Club.pdf)
+
+[02_Smart Contract Audit Shopping_GSPI_Staking.pdf](./02_Smart%20Contract%20Audit%20Shopping_GSPI_Staking.pdf)
+
+[02_Smart Contract Audit Shopping_GSPI_Token.pdf](./02_Smart%20Contract%20Audit%20Shopping_GSPI_Token.pdf)
+
+[02_Smart Contract Audit Shopping_SPI_Staking.pdf](./02_Smart%20Contract%20Audit%20Shopping_SPI_Staking.pdf)
+
+[02_Smart Contract Audit Shopping_SPI_Staking_v2.pdf](./02_Smart%20Contract%20Audit%20Shopping_SPI_Staking_v2.pdf)
+
+[02_Smart Contract Audit Shopping_SPI_Token.pdf](./02_Smart%20Contract%20Audit%20Shopping_SPI_Token.pdf)
+
+[Smart_Contract_Audit_Shoppingio_Staking_Exchange.pdf](./Smart_Contract_Audit_Shoppingio_Staking_Exchange.pdf)
+
+## Additional Files
+
+[gspi_club.sol](./gspi_club.sol)
+
+[gspi_staking.sol](./gspi_staking.sol)
+
+[gspi_token.sol](./gspi_token.sol)
+
+[spi_staking.sol](./spi_staking.sol)
+
+[spi_token.sol](./spi_token.sol)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed smart contract security work across token, staking, exchange and membership related contract systems.
+
+## Summary
+
+This folder is a historical reference for Softstack’s smart contract audit work connected to token infrastructure, staking contracts, exchange logic and consumer Web3 commerce systems.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
