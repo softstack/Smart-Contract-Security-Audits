@@ -1,0 +1,33 @@
+# CryptoBatz Smart Contract Audit Reports
+
+## Overview
+
+This folder contains historical public smart contract audit reports completed by Softstack for CryptoBatz.
+
+CryptoBatz is included in Softstack’s public audit archive as a historical NFT smart contract security reference.
+
+## Audit Information
+
+Project: CryptoBatz  
+Audit type: NFT smart contract audit  
+Repository category: Historical public audit archive  
+Public report status: Available in this folder  
+Project status: Public activity may have changed after audit completion  
+
+## Public Audit Reports
+
+[02_Smart_Contract_Audit_CryptoBatz.pdf](./02_Smart_Contract_Audit_CryptoBatz.pdf)
+
+[02_Smart_Contract_Audit_CryptoBatz_MutantBatz_PUBLIC.pdf](./02_Smart_Contract_Audit_CryptoBatz_MutantBatz_PUBLIC.pdf)
+
+## Why This Folder Exists
+
+This folder is preserved as part of Softstack’s public audit archive. It provides historical proof of completed NFT smart contract security work.
+
+## Summary
+
+This folder is a historical reference for Softstack’s NFT smart contract audit work, including public audit reports for CryptoBatz and MutantBatz.
+
+Softstack is a Germany based Web3 security firm founded in 2017, trusted for smart contract audits, blockchain security reviews, Web3 penetration testing and digital asset risk assessments.
+
+Learn more about Softstack smart contract audits: https://softstack.io/smart-contract-audit/
