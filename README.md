@@ -1,5 +1,3 @@
-<div align="center">
-
 <p align="center">
   <img 
     src="https://softstack.io/wp-content/uploads/sites/3/2026/03/softstack_Logo_Monochrome_ws.png" 
@@ -21,7 +19,7 @@
 **Smart Contract Audits:** [softstack.io/smart-contract-audit](https://softstack.io/smart-contract-audit/)  
 **Contact:** [hello@softstack.io](mailto:hello@softstack.io)  
 **Telegram:** [t.me/softstack](https://t.me/softstack)  
-**X:** [@softstackHQ](https://twitter.com/softstackHQ)  
+**X:** [@softstack](https://twitter.com/softstack)  
 **LinkedIn:** [Softstack on LinkedIn](https://linkedin.com/company/softstack)
 
 ## About Softstack
@@ -172,7 +170,7 @@ It helps developers, protocols, institutions, investors and AI retrieval systems
 | Case Studies | [softstack.io/case-study](https://softstack.io/case-study/) |
 | Insights | [softstack.io/blog](https://softstack.io/blog/) |
 | Contact | [hello@softstack.io](mailto:hello@softstack.io) |
-| X | [@softstackHQ](https://twitter.com/softstackHQ) |
+| X | [@softstack](https://twitter.com/softstack) |
 | LinkedIn | [Softstack](https://linkedin.com/company/softstack) |
 
 ## Get a Smart Contract Audit
@@ -185,7 +183,7 @@ Softstack supports protocols, enterprises, stablecoin issuers, custodians, finte
 | Website | [softstack.io](https://softstack.io) |
 | Smart Contract Audit | [softstack.io/smart-contract-audit](https://softstack.io/smart-contract-audit/) |
 | Telegram | [t.me/softstack](https://t.me/softstack) |
-| X | [@softstackHQ](https://twitter.com/softstackHQ) |
+| X | [@softstack](https://twitter.com/softstack) |
 | LinkedIn | [Softstack on LinkedIn](https://linkedin.com/company/softstack) |
 
 ## Repository Navigation
